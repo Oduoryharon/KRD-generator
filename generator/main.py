@@ -1,22 +1,11 @@
-from generator.generators import suppliers
-from generator.generators import categories
-from generator.generators.categories import generate_categories
-from generator.generators.suppliers import generate_suppliers
-from generator.generators.products import generate_products    
+from utils import generate_id, random_date
 
 def main():
-    # Generate categories
-    print("Generating categories...")
-    generate_categories()
-    
-    # Generate suppliers
-    print("Generating suppliers...")
-    generate_suppliers()
-    
-    # Generate products
-    print("Generating products...")
-    generate_products(categories, suppliers)
+    print(generate_id("CAT", 1))
+    print(generate_id("SUP", 25))
+    print(generate_id("CUS", 15, 5))
+
+    print(random_date("2020-01-01", "2025-12-31"))
 
 if __name__ == "__main__":
     main()
-    # You can add more generation functions here for stores, customers, employees, promotions, and sales

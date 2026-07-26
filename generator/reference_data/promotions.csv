@@ -1,0 +1,16 @@
+PromotionName,PromotionType,DefaultDiscount,TargetCategory
+Back to School,Percentage,15,Stationery
+Valentine's Sale,Percentage,10,Confectionery
+Easter Deals,Percentage,20,Dairy
+Labour Day Sale,Percentage,12,Household
+Madaraka Sale,Percentage,15,Beverages
+Mid-Year Sale,Percentage,18,Personal Care
+August School Rush,Percentage,20,Stationery
+Mashujaa Sale,Percentage,15,Food Staples
+Black Friday,Percentage,35,All
+Christmas Mega Sale,Percentage,30,All
+New Year Sale,Percentage,20,Beverages
+Ramadan Specials,Percentage,25,Food Staples
+Customer Loyalty Week,Percentage,10,All
+
+

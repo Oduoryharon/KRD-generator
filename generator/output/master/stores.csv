@@ -1,2 +1,2 @@
 store_id,store_name,retail_chain,store_type,floor_area_sqm,county,region,town,created_date,last_updated_date,is_active
-{'STR001'},Naivas Karen Branch,Naivas,express,1068,Nairobi,Nairobi,Karen,2017-08-06,2023-10-12,True
+{'STR001'},Naivas Nyali Branch,Naivas,express,1007,Mombasa,Coast,Nyali,2015-03-31,2020-07-29,True

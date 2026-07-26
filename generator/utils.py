@@ -24,5 +24,4 @@ def random_date(start_date: str, end_str: str):
     end = datetime.strptime(end_str, date_format)
     days_between = (end - start).days
     random_days = random.randint(0, days_between)
-    return (start + timedelta(days=random_days)).strftime(date_format)
-
+    return (start + timedelta(days=random_days))

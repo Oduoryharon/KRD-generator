@@ -1,0 +1,3 @@
+SupplierID,SupplierName,CategorySupplied,ContactPerson,Phone,Email,County,PostalAddress,PaymentTerms,IsActive
+{'SUP015'},Bio Foods Ltd,Yoghurt,Allison Hill,321.581.9600,williamjohnson@baldwin.net,Robinsonshire,"65423 Garcia Light
+West Melanieview, AS 06196",Net 30,True

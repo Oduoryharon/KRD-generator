@@ -1,16 +1,48 @@
-PromotionName,PromotionType,DefaultDiscount,TargetCategory
-Back to School,Percentage,15,Stationery
-Valentine's Sale,Percentage,10,Confectionery
-Easter Deals,Percentage,20,Dairy
-Labour Day Sale,Percentage,12,Household
-Madaraka Sale,Percentage,15,Beverages
-Mid-Year Sale,Percentage,18,Personal Care
-August School Rush,Percentage,20,Stationery
-Mashujaa Sale,Percentage,15,Food Staples
-Black Friday,Percentage,35,All
-Christmas Mega Sale,Percentage,30,All
-New Year Sale,Percentage,20,Beverages
-Ramadan Specials,Percentage,25,Food Staples
-Customer Loyalty Week,Percentage,10,All
-
-
+PromotionName,start_date,end_date,PromotionType,MinDiscount,MaxDiscount,ApplicableCategory
+Back to School,01-05,01-31,Percentage,10,20,Stationery
+Back to School Electronics,01-05,01-31,Percentage,5,15,Electronics
+Valentine's Sale,02-08,02-14,Percentage,15,30,Personal Care
+Valentine Gift Bundles,02-08,02-14,Bundle,10,25,Home
+Ramadan Specials,03-10,04-10,Percentage,10,30,Grocery
+Easter Deals,03-20,04-05,Percentage,10,25,Fresh Foods
+Fresh Produce Festival,04-01,04-15,Percentage,5,20,Fresh Foods
+Bakery Week,04-10,04-17,Percentage,10,25,Bakery
+Labour Day Sale,04-28,05-05,Percentage,5,20,All
+Health & Wellness Week,05-10,05-20,Percentage,10,25,Personal Care
+Madaraka Day Sale,05-28,06-05,Percentage,10,25,All
+Kitchen Essentials Sale,06-10,06-20,Percentage,10,30,Home
+Family Shopping Week,06-15,06-25,Percentage,10,20,All
+Mid-Year Clearance,07-01,07-31,Percentage,20,50,All
+Winter Warmers,07-05,07-20,Percentage,10,25,Beverages
+August School Rush,08-01,08-25,Percentage,10,25,Stationery
+Baby Care Promotion,08-05,08-20,Percentage,10,25,Baby Care
+Student Tech Deals,08-10,08-25,Percentage,5,15,Electronics
+Customer Loyalty Week,09-10,09-17,Loyalty Points,100,1000,All
+Home & Kitchen Sale,09-15,09-30,Percentage,10,30,Home
+Mashujaa Day Sale,10-10,10-25,Percentage,10,30,All
+Cleaning Essentials Week,10-15,10-25,Percentage,10,25,Household
+Electronics Mega Deals,11-01,11-30,Percentage,10,40,Electronics
+Black Friday,11-20,11-30,Percentage,20,70,All
+Cyber Monday,11-28,12-02,Percentage,15,60,Electronics
+Beverage Bonanza,12-01,12-24,Percentage,5,20,Beverages
+Christmas Mega Sale,12-10,12-31,Percentage,15,50,All
+Christmas Bakery Specials,12-15,12-31,Percentage,10,25,Bakery
+Festive Grocery Sale,12-15,12-31,Percentage,10,30,Grocery
+New Year Sale,12-26,01-10,Percentage,10,40,All
+Weekend Flash Sale,01-01,12-31,Percentage,5,20,All
+Buy One Get One,01-01,12-31,BOGO,1,1,Selected Products
+Bundle Offer,01-01,12-31,Bundle,5,25,All
+Member Exclusive Discount,01-01,12-31,Percentage,5,15,All
+Clearance Sale,01-01,12-31,Percentage,20,70,All
+Store Anniversary Sale,01-01,12-31,Percentage,10,35,All
+End Month Sale,01-25,12-31,Percentage,5,15,All
+Household Essentials Sale,01-15,01-31,Percentage,10,25,Household
+Laundry Days,02-01,02-10,Percentage,10,20,Household
+Dairy Specials,03-01,03-15,Percentage,5,15,Fresh Foods
+Frozen Food Fiesta,06-01,06-15,Percentage,10,25,Frozen
+Pet Care Week,07-15,07-25,Percentage,10,20,Pets
+Coffee Lovers Week,08-20,08-30,Percentage,10,20,Beverages
+Tea Festival,09-01,09-10,Percentage,10,20,Beverages
+Cooking Oil Savings,10-01,10-10,Percentage,5,15,Grocery
+Rice & Maize Festival,11-05,11-15,Percentage,10,25,Grocery
+Water Hydration Week,12-01,12-10,Percentage,5,15,Beverages

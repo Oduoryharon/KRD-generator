@@ -1,0 +1,23 @@
+Category,MinCost,MaxCost,MarginPercent
+Grocery,40,350,18
+Dairy,40,250,18
+Bakery,25,180,25
+Fresh Produce,20,300,30
+Meat & Poultry,150,1200,28
+Fish & Seafood,180,1800,30
+Frozen Foods,120,900,25
+Beverages,20,300,22
+Juices,60,350,22
+Water,20,150,20
+Tea & Coffee,80,900,30
+Snacks,20,400,35
+Confectionery,10,250,40
+Cleaning Supplies,80,1200,25
+Laundry,100,1800,22
+Kitchenware,300,8000,35
+Personal Care,60,2500,30
+Baby Care,80,3500,28
+Health & Pharmacy,50,5000,35
+Stationery,10,2500,30
+Electronics,1500,250000,18
+Pet Care,150,4500,25

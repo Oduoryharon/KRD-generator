@@ -5,31 +5,44 @@ from generator.utils import create_directory, save_csv, save_excel, generate_id,
 
 # initializing the different categories with their respective attributes
 CATEGORY_DATA = [
-    ("Maize Flour", "Grocery", 0, False),
-    ("Rice", "Grocery", 16, False),
-    ("Sugar", "Grocery", 16, False),
-    ("Cooking Oil", "Grocery", 16, False),
-    ("Salt", "Grocery", 16, False),
-    ("Milk", "Fresh Foods", 16, True),
-    ("Yoghurt", "Fresh Foods", 16, True),
-    ("Cheese", "Fresh Foods", 16, True),
-    ("Butter", "Fresh Foods", 16, True),
-    ("Bread", "Bakery", 16, True),
-    ("Cakes", "Bakery", 16, True),
-    ("Soft Drinks", "Beverages", 16, False),
+
+    # Grocery
+    ("Grocery", "Food", 16, False),
+
+    # Fresh Foods
+    ("Dairy", "Fresh Foods", 0, True),
+    ("Bakery", "Fresh Foods", 0, True),
+    ("Fresh Produce", "Fresh Foods", 0, True),
+    ("Meat & Poultry", "Fresh Foods", 0, True),
+    ("Fish & Seafood", "Fresh Foods", 0, True),
+
+    # Frozen
+    ("Frozen Foods", "Frozen", 16, True),
+
+    # Drinks
+    ("Beverages", "Beverages", 16, False),
     ("Juices", "Beverages", 16, False),
     ("Water", "Beverages", 0, False),
-    ("Tea", "Beverages", 16, False),
-    ("Coffee", "Beverages", 16, False),
+    ("Tea & Coffee", "Beverages", 16, False),
+
+    # Snacks
+    ("Snacks", "Snacks", 16, False),
+    ("Confectionery", "Snacks", 16, False),
+
+    # Household
     ("Cleaning Supplies", "Household", 16, False),
     ("Laundry", "Household", 16, False),
-    ("Toiletries", "Personal Care", 16, False),
-    ("Baby Care", "Personal Care", 16, False),
+    ("Kitchenware", "Household", 16, False),
+
+    # Personal Care
+    ("Personal Care", "Health & Beauty", 16, False),
+    ("Baby Care", "Health & Beauty", 16, False),
+    ("Health & Pharmacy", "Health & Beauty", 16, False),
+
+    # Other Departments
     ("Stationery", "Office", 16, False),
     ("Electronics", "Electronics", 16, False),
-    ("Kitchenware", "Home", 16, False),
-    ("Pet Food", "Pets", 16, False),
-    ("Frozen Foods", "Frozen", 16, True)
+    ("Pet Care", "Pets", 16, False)
 ]
 
 # creating a function to generate categories and save them to CSV and Excel files

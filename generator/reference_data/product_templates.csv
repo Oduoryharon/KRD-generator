@@ -1,0 +1,628 @@
+Brand,Category,Product,Unit,PackSize,ShelfLifeDays
+Brookside,Dairy,Fresh Milk,Bottle,500ml,7
+Brookside,Dairy,Fresh Milk,Bottle,1L,7
+Brookside,Dairy,Long Life Milk,Packet,500ml,180
+Brookside,Dairy,Long Life Milk,Packet,1L,180
+
+Ilara,Dairy,Fresh Milk,Bottle,500ml,7
+Ilara,Dairy,Fresh Milk,Bottle,1L,7
+
+Molo Milk,Dairy,Fresh Milk,Bottle,500ml,7
+Molo Milk,Dairy,Fresh Milk,Bottle,1L,7
+
+Brookside Yoghurt,Dairy,Yoghurt,Cup,150ml,21
+Brookside Yoghurt,Dairy,Yoghurt,Cup,250ml,21
+Brookside Yoghurt,Dairy,Yoghurt,Cup,500ml,21
+
+Brookside Mala,Dairy,Mala,Bottle,500ml,14
+Brookside Mala,Dairy,Mala,Bottle,1L,14
+
+Daima,Dairy,Fresh Milk,Bottle,500ml,7
+Daima,Dairy,Fresh Milk,Bottle,1L,7
+
+KCC,Dairy,Fresh Milk,Bottle,500ml,7
+KCC,Dairy,Fresh Milk,Bottle,1L,7
+KCC,Dairy,Butter,Packet,250g,120
+
+Tuzo,Dairy,Fresh Milk,Bottle,500ml,7
+Tuzo,Dairy,Fresh Milk,Bottle,1L,7
+
+Fresha,Dairy,Fresh Milk,Bottle,500ml,7
+Fresha,Dairy,Fresh Milk,Bottle,1L,7
+
+Happy Cow,Dairy,Fresh Milk,Bottle,500ml,7
+Happy Cow,Dairy,Fresh Milk,Bottle,1L,7
+Happy Cow,Dairy,Cheese,Packet,250g,180
+
+Delamere,Dairy,Fresh Milk,Bottle,500ml,7
+Delamere,Dairy,Fresh Milk,Bottle,1L,7
+Delamere,Dairy,Yoghurt,Cup,250ml,21
+
+Lato,Dairy,Fresh Milk,Bottle,500ml,7
+Lato,Dairy,Fresh Milk,Bottle,1L,7
+
+Blue Band,Dairy,Margarine,Tub,250g,365
+Blue Band,Dairy,Margarine,Tub,500g,365
+
+Jogoo,Grocery,Maize Flour,Packet,1kg,365
+Jogoo,Grocery,Maize Flour,Packet,2kg,365
+
+Hostess,Grocery,Wheat Flour,Packet,1kg,365
+Hostess,Grocery,Wheat Flour,Packet,2kg,365
+
+Ajab,Grocery,Wheat Flour,Packet,1kg,365
+Ajab,Grocery,Wheat Flour,Packet,2kg,365
+
+Amaize,Grocery,Maize Flour,Packet,1kg,365
+Amaize,Grocery,Maize Flour,Packet,2kg,365
+
+Soko,Grocery,Sugar,Packet,1kg,365
+Soko,Grocery,Sugar,Packet,2kg,365
+
+Pembe,Grocery,Wheat Flour,Packet,1kg,365
+Pembe,Grocery,Wheat Flour,Packet,2kg,365
+
+Kimbo,Grocery,Cooking Oil,Bottle,500ml,540
+Kimbo,Grocery,Cooking Oil,Bottle,1L,540
+Kimbo,Grocery,Cooking Oil,Bottle,2L,540
+Kimbo,Grocery,Cooking Oil,Bottle,5L,540
+
+Mumias,Grocery,Sugar,Packet,1kg,365
+Mumias,Grocery,Sugar,Packet,2kg,365
+
+Kabras,Grocery,Sugar,Packet,1kg,365
+Kabras,Grocery,Sugar,Packet,2kg,365
+
+Raha,Grocery,Rice,Packet,1kg,365
+Raha,Grocery,Rice,Packet,2kg,365
+Raha,Grocery,Rice,Packet,5kg,365
+
+Bidco,Grocery,Cooking Oil,Bottle,500ml,540
+Bidco,Grocery,Cooking Oil,Bottle,1L,540
+Bidco,Grocery,Cooking Oil,Bottle,2L,540
+Bidco,Grocery,Cooking Oil,Bottle,5L,540
+
+Elianto,Grocery,Cooking Oil,Bottle,500ml,540
+Elianto,Grocery,Cooking Oil,Bottle,1L,540
+Elianto,Grocery,Cooking Oil,Bottle,2L,540
+
+Fresh Fri,Grocery,Cooking Oil,Bottle,500ml,540
+Fresh Fri,Grocery,Cooking Oil,Bottle,1L,540
+Fresh Fri,Grocery,Cooking Oil,Bottle,2L,540
+Fresh Fri,Grocery,Cooking Oil,Bottle,5L,540
+
+Golden Fry,Grocery,Cooking Oil,Bottle,500ml,540
+Golden Fry,Grocery,Cooking Oil,Bottle,1L,540
+Golden Fry,Grocery,Cooking Oil,Bottle,2L,540
+
+Rina,Grocery,Cooking Oil,Bottle,500ml,540
+Rina,Grocery,Cooking Oil,Bottle,1L,540
+Rina,Grocery,Cooking Oil,Bottle,2L,540
+
+Kasuku,Grocery,Salt,Packet,500g,730
+Kasuku,Grocery,Salt,Packet,1kg,730
+
+Exe,Grocery,Rice,Packet,1kg,365
+Exe,Grocery,Rice,Packet,2kg,365
+Exe,Grocery,Rice,Packet,5kg,365
+
+Crown,Grocery,Rice,Packet,1kg,365
+Crown,Grocery,Rice,Packet,2kg,365
+
+Top Fry,Grocery,Cooking Oil,Bottle,500ml,540
+Top Fry,Grocery,Cooking Oil,Bottle,1L,540
+Top Fry,Grocery,Cooking Oil,Bottle,2L,540
+
+Cerevita,Grocery,Porridge Flour,Packet,500g,365
+Cerevita,Grocery,Porridge Flour,Packet,1kg,365
+
+Ndovu,Grocery,Salt,Packet,500g,730
+Ndovu,Grocery,Salt,Packet,1kg,730
+
+Kensalt,Grocery,Salt,Packet,500g,730
+Kensalt,Grocery,Salt,Packet,1kg,730
+
+Coca-Cola,Beverages,Soda,Bottle,300ml,365
+Coca-Cola,Beverages,Soda,Bottle,500ml,365
+Coca-Cola,Beverages,Soda,Bottle,1L,365
+Coca-Cola,Beverages,Soda,Bottle,2L,365
+
+Fanta,Beverages,Soda,Bottle,300ml,365
+Fanta,Beverages,Soda,Bottle,500ml,365
+Fanta,Beverages,Soda,Bottle,1L,365
+Fanta,Beverages,Soda,Bottle,2L,365
+
+Sprite,Beverages,Soda,Bottle,300ml,365
+Sprite,Beverages,Soda,Bottle,500ml,365
+Sprite,Beverages,Soda,Bottle,1L,365
+Sprite,Beverages,Soda,Bottle,2L,365
+
+Stoney,Beverages,Ginger Soda,Bottle,300ml,365
+Stoney,Beverages,Ginger Soda,Bottle,500ml,365
+Stoney,Beverages,Ginger Soda,Bottle,1L,365
+Stoney,Beverages,Ginger Soda,Bottle,2L,365
+
+Schweppes,Beverages,Tonic Water,Bottle,300ml,365
+Schweppes,Beverages,Tonic Water,Bottle,500ml,365
+Schweppes,Beverages,Tonic Water,Bottle,1L,365
+
+Krest,Beverages,Soft Drink,Bottle,300ml,365
+Krest,Beverages,Soft Drink,Bottle,500ml,365
+Krest,Beverages,Soft Drink,Bottle,1L,365
+
+Pepsi,Beverages,Soda,Bottle,300ml,365
+Pepsi,Beverages,Soda,Bottle,500ml,365
+Pepsi,Beverages,Soda,Bottle,1L,365
+Pepsi,Beverages,Soda,Bottle,2L,365
+
+Mirinda,Beverages,Orange Soda,Bottle,300ml,365
+Mirinda,Beverages,Orange Soda,Bottle,500ml,365
+Mirinda,Beverages,Orange Soda,Bottle,1L,365
+Mirinda,Beverages,Orange Soda,Bottle,2L,365
+
+Mountain Dew,Beverages,Citrus Soda,Bottle,300ml,365
+Mountain Dew,Beverages,Citrus Soda,Bottle,500ml,365
+Mountain Dew,Beverages,Citrus Soda,Bottle,1L,365
+Mountain Dew,Beverages,Citrus Soda,Bottle,2L,365
+
+7UP,Beverages,Lemon Lime Soda,Bottle,300ml,365
+7UP,Beverages,Lemon Lime Soda,Bottle,500ml,365
+7UP,Beverages,Lemon Lime Soda,Bottle,1L,365
+7UP,Beverages,Lemon Lime Soda,Bottle,2L,365
+
+Red Bull,Beverages,Energy Drink,Can,250ml,365
+Red Bull,Beverages,Energy Drink,Can,355ml,365
+
+Monster,Beverages,Energy Drink,Can,355ml,365
+Monster,Beverages,Energy Drink,Can,500ml,365
+
+Del Monte,Juices,Orange Juice,Bottle,250ml,365
+Del Monte,Juices,Orange Juice,Bottle,500ml,365
+Del Monte,Juices,Orange Juice,Bottle,1L,365
+Del Monte,Juices,Mango Juice,Bottle,250ml,365
+Del Monte,Juices,Mango Juice,Bottle,500ml,365
+Del Monte,Juices,Mango Juice,Bottle,1L,365
+Del Monte,Juices,Mixed Fruit Juice,Bottle,1L,365
+
+Minute Maid,Juices,Orange Juice,Bottle,300ml,365
+Minute Maid,Juices,Orange Juice,Bottle,500ml,365
+Minute Maid,Juices,Orange Juice,Bottle,1L,365
+Minute Maid,Juices,Apple Juice,Bottle,300ml,365
+Minute Maid,Juices,Apple Juice,Bottle,1L,365
+Minute Maid,Juices,Mixed Fruit Juice,Bottle,1L,365
+
+Pick N Peel,Juices,Orange Juice,Bottle,300ml,365
+Pick N Peel,Juices,Orange Juice,Bottle,500ml,365
+Pick N Peel,Juices,Mango Juice,Bottle,300ml,365
+Pick N Peel,Juices,Mango Juice,Bottle,500ml,365
+Pick N Peel,Juices,Mixed Fruit Juice,Bottle,1L,365
+
+Afia,Juices,Mango Juice,Bottle,300ml,365
+Afia,Juices,Mango Juice,Bottle,500ml,365
+Afia,Juices,Apple Juice,Bottle,300ml,365
+Afia,Juices,Apple Juice,Bottle,1L,365
+Afia,Juices,Mixed Fruit Juice,Bottle,1L,365
+
+Tropical Heat Juice,Juices,Tropical Juice,Bottle,300ml,365
+Tropical Heat Juice,Juices,Tropical Juice,Bottle,500ml,365
+Tropical Heat Juice,Juices,Tropical Juice,Bottle,1L,365
+
+Dasani,Water,Drinking Water,Bottle,300ml,730
+Dasani,Water,Drinking Water,Bottle,500ml,730
+Dasani,Water,Drinking Water,Bottle,1L,730
+Dasani,Water,Drinking Water,Bottle,1.5L,730
+Dasani,Water,Drinking Water,Bottle,5L,730
+
+Keringet,Water,Mineral Water,Bottle,500ml,730
+Keringet,Water,Mineral Water,Bottle,1L,730
+Keringet,Water,Mineral Water,Bottle,1.5L,730
+Keringet,Water,Mineral Water,Bottle,5L,730
+
+Aquamist,Water,Drinking Water,Bottle,500ml,730
+Aquamist,Water,Drinking Water,Bottle,1L,730
+Aquamist,Water,Drinking Water,Bottle,1.5L,730
+Aquamist,Water,Drinking Water,Bottle,5L,730
+
+Highlands,Water,Natural Spring Water,Bottle,500ml,730
+Highlands,Water,Natural Spring Water,Bottle,1L,730
+Highlands,Water,Natural Spring Water,Bottle,1.5L,730
+Highlands,Water,Natural Spring Water,Bottle,5L,730
+
+Ketepa,Tea & Coffee,Black Tea,Box,25 Tea Bags,730
+Ketepa,Tea & Coffee,Black Tea,Box,50 Tea Bags,730
+Ketepa,Tea & Coffee,Black Tea,Box,100 Tea Bags,730
+Ketepa,Tea & Coffee,Premium Tea,Box,50 Tea Bags,730
+
+Kericho Gold,Tea & Coffee,Black Tea,Box,25 Tea Bags,730
+Kericho Gold,Tea & Coffee,Black Tea,Box,50 Tea Bags,730
+Kericho Gold,Tea & Coffee,Black Tea,Box,100 Tea Bags,730
+Kericho Gold,Tea & Coffee,Green Tea,Box,25 Tea Bags,730
+Kericho Gold,Tea & Coffee,Green Tea,Box,50 Tea Bags,730
+
+Nescafe,Tea & Coffee,Instant Coffee,Jar,50g,730
+Nescafe,Tea & Coffee,Instant Coffee,Jar,100g,730
+Nescafe,Tea & Coffee,Instant Coffee,Jar,200g,730
+Nescafe,Tea & Coffee,Coffee Sachets,Box,20 Sachets,730
+
+Dormans,Tea & Coffee,Ground Coffee,Packet,250g,730
+Dormans,Tea & Coffee,Ground Coffee,Packet,500g,730
+Dormans,Tea & Coffee,Whole Bean Coffee,Packet,500g,730
+Dormans,Tea & Coffee,Instant Coffee,Jar,100g,730
+
+Java House Coffee,Tea & Coffee,Ground Coffee,Packet,250g,730
+Java House Coffee,Tea & Coffee,Ground Coffee,Packet,500g,730
+Java House Coffee,Tea & Coffee,Whole Bean Coffee,Packet,500g,730
+Java House Coffee,Tea & Coffee,Coffee Capsules,Box,10 Capsules,730
+
+Festive,Bakery,White Bread,Loaf,400g,5
+Festive,Bakery,White Bread,Loaf,600g,5
+Festive,Bakery,Brown Bread,Loaf,400g,5
+Festive,Bakery,Brown Bread,Loaf,600g,5
+Festive,Bakery,Buns,Packet,6 Pieces,5
+Festive,Bakery,Cake,Each,500g,7
+
+Supaloaf,Bakery,White Bread,Loaf,400g,5
+Supaloaf,Bakery,White Bread,Loaf,600g,5
+Supaloaf,Bakery,Brown Bread,Loaf,400g,5
+Supaloaf,Bakery,Brown Bread,Loaf,600g,5
+Supaloaf,Bakery,Milk Bread,Loaf,600g,5
+Supaloaf,Bakery,Buns,Packet,6 Pieces,5
+
+Broadways,Bakery,White Bread,Loaf,400g,5
+Broadways,Bakery,White Bread,Loaf,600g,5
+Broadways,Bakery,Brown Bread,Loaf,400g,5
+Broadways,Bakery,Brown Bread,Loaf,600g,5
+Broadways,Bakery,Swiss Roll,Each,250g,7
+Broadways,Bakery,Doughnuts,Packet,4 Pieces,5
+
+Fresh Harvest,Fresh Produce,Tomatoes,Kg,1kg,7
+Fresh Harvest,Fresh Produce,Onions,Kg,1kg,30
+Fresh Harvest,Fresh Produce,Potatoes,Kg,2kg,60
+
+Green Farm,Fresh Produce,Carrots,Kg,1kg,21
+Green Farm,Fresh Produce,Cabbage,Each,1 Head,14
+Green Farm,Fresh Produce,Spinach,Bunch,Each,5
+
+Nature Fresh,Fresh Produce,Sukuma Wiki,Bunch,Each,5
+Nature Fresh,Fresh Produce,Bananas,Bunch,Each,7
+Nature Fresh,Fresh Produce,Apples,Kg,1kg,30
+
+Farm Choice,Fresh Produce,Oranges,Kg,1kg,21
+Farm Choice,Fresh Produce,Lemons,Kg,1kg,30
+Farm Choice,Fresh Produce,Avocados,Each,Each,10
+
+Organic Select,Fresh Produce,Cucumber,Kg,1kg,10
+Organic Select,Fresh Produce,Green Capsicum,Kg,1kg,14
+Organic Select,Fresh Produce,Red Capsicum,Kg,1kg,14
+
+Fresh Harvest,Fresh Produce,Garlic,Packet,250g,90
+Green Farm,Fresh Produce,Ginger,Packet,250g,60
+Nature Fresh,Fresh Produce,Mangoes,Kg,1kg,14
+Farm Choice,Fresh Produce,Pineapple,Each,Each,14
+Organic Select,Fresh Produce,Watermelon,Each,Each,10
+
+Farmer's Choice,Meat & Poultry,Bacon,Packet,250g,30
+Farmer's Choice,Meat & Poultry,Bacon,Packet,500g,30
+Farmer's Choice,Meat & Poultry,Sausages,Packet,500g,30
+Farmer's Choice,Meat & Poultry,Smokies,Packet,500g,30
+Farmer's Choice,Meat & Poultry,Ham,Packet,250g,30
+
+Kenchic,Meat & Poultry,Whole Chicken,Kg,1kg,7
+Kenchic,Meat & Poultry,Chicken Breast,Packet,500g,7
+Kenchic,Meat & Poultry,Chicken Drumsticks,Packet,500g,7
+Kenchic,Meat & Poultry,Chicken Wings,Packet,500g,7
+Kenchic,Meat & Poultry,Chicken Sausages,Packet,500g,30
+
+Brade Gate,Meat & Poultry,Whole Chicken,Kg,1kg,7
+Brade Gate,Meat & Poultry,Chicken Breast,Packet,500g,7
+Brade Gate,Meat & Poultry,Chicken Drumsticks,Packet,500g,7
+Brade Gate,Meat & Poultry,Chicken Wings,Packet,500g,7
+
+Victory Fish,Fish & Seafood,Tilapia,Kg,1kg,5
+Victory Fish,Fish & Seafood,Nile Perch,Kg,1kg,5
+Victory Fish,Fish & Seafood,Catfish,Kg,1kg,5
+Victory Fish,Fish & Seafood,Fish Fillet,Packet,500g,30
+
+Sea Harvest,Fish & Seafood,Prawns,Packet,500g,30
+Sea Harvest,Fish & Seafood,Fish Fingers,Packet,500g,180
+Sea Harvest,Fish & Seafood,Hake Fillets,Packet,500g,180
+Sea Harvest,Fish & Seafood,Calamari,Packet,500g,180
+
+Big Cold,Frozen Foods,Frozen Chips,Packet,1kg,365
+Big Cold,Frozen Foods,Frozen Mixed Vegetables,Packet,500g,365
+Big Cold,Frozen Foods,Frozen Peas,Packet,500g,365
+Big Cold,Frozen Foods,Frozen Sweet Corn,Packet,500g,365
+Big Cold,Frozen Foods,Frozen Pizza,Each,500g,365
+Big Cold,Frozen Foods,Frozen Chicken Nuggets,Packet,750g,365
+Big Cold,Frozen Foods,Frozen Fish Fingers,Packet,500g,365
+Big Cold,Frozen Foods,Frozen Beef Burgers,Packet,1kg,365
+
+Krackles,Snacks,Potato Crisps,Packet,50g,270
+Krackles,Snacks,Potato Crisps,Packet,100g,270
+Krackles,Snacks,Cheese Balls,Packet,75g,270
+
+Tropical Heat,Snacks,Potato Crisps,Packet,50g,270
+Tropical Heat,Snacks,Potato Crisps,Packet,100g,270
+Tropical Heat,Snacks,Cassava Crisps,Packet,100g,270
+Tropical Heat,Snacks,Chilli Lemon Crisps,Packet,100g,270
+
+Chevda,Snacks,Chevda Mix,Packet,100g,270
+Chevda,Snacks,Chevda Mix,Packet,200g,270
+
+Potato Crisps,Snacks,Classic Crisps,Packet,50g,270
+Potato Crisps,Snacks,Classic Crisps,Packet,100g,270
+
+Cocktail Mix,Snacks,Cocktail Mix,Packet,100g,270
+Cocktail Mix,Snacks,Cocktail Mix,Packet,200g,270
+
+Pringles,Snacks,Original Crisps,Can,165g,365
+Pringles,Snacks,Sour Cream Crisps,Can,165g,365
+Pringles,Snacks,Hot & Spicy Crisps,Can,165g,365
+
+Lays,Snacks,Classic Crisps,Packet,50g,270
+Lays,Snacks,Classic Crisps,Packet,100g,270
+Lays,Snacks,Barbecue Crisps,Packet,100g,270
+
+Doritos,Snacks,Nachos,Packet,150g,270
+Doritos,Snacks,Cheese Nachos,Packet,150g,270
+
+Nik Naks,Snacks,Corn Snacks,Packet,50g,270
+Nik Naks,Snacks,Corn Snacks,Packet,100g,270
+
+Big G,Snacks,Groundnuts,Packet,100g,365
+Big G,Snacks,Groundnuts,Packet,250g,365
+
+Popz,Snacks,Popcorn,Packet,100g,270
+Popz,Snacks,Popcorn,Packet,200g,270
+
+Salties,Snacks,Salted Crackers,Packet,200g,365
+Salties,Snacks,Salted Crackers,Packet,400g,365
+
+Kenafric Sweets,Confectionery,Toffee,Packet,100g,365
+Kenafric Sweets,Confectionery,Lollipops,Packet,200g,365
+
+Kenafric Gum,Confectionery,Chewing Gum,Packet,20 Pieces,365
+Kenafric Gum,Confectionery,Bubble Gum,Packet,40 Pieces,365
+
+Mentos,Confectionery,Mint Candy,Roll,38g,365
+Mentos,Confectionery,Fruit Candy,Roll,38g,365
+
+Airheads,Confectionery,Chewy Candy,Packet,100g,365
+
+Orbit,Confectionery,Chewing Gum,Packet,10 Pieces,365
+Orbit,Confectionery,Sugar Free Gum,Packet,30 Pieces,365
+
+PK,Confectionery,Chewing Gum,Packet,10 Pieces,365
+PK,Confectionery,Chewing Gum,Packet,30 Pieces,365
+
+Extra,Confectionery,Sugar Free Gum,Packet,10 Pieces,365
+Extra,Confectionery,Sugar Free Gum,Packet,30 Pieces,365
+
+Cadbury Dairy Milk,Confectionery,Milk Chocolate,Bar,80g,365
+Cadbury Dairy Milk,Confectionery,Milk Chocolate,Bar,150g,365
+
+Cadbury Bubbly,Confectionery,Chocolate Bar,Bar,87g,365
+
+Chupa Chups,Confectionery,Lollipop,Packet,10 Pieces,365
+Chupa Chups,Confectionery,Lollipop,Packet,20 Pieces,365
+
+Halls,Confectionery,Cough Drops,Packet,20 Pieces,365
+
+Eclairs,Confectionery,Chocolate Toffee,Packet,200g,365
+Eclairs,Confectionery,Chocolate Toffee,Packet,500g,365
+
+Dettol,Personal Care,Antiseptic Liquid,Bottle,250ml,730
+Dettol,Personal Care,Antiseptic Liquid,Bottle,500ml,730
+Dettol,Personal Care,Hand Wash,Bottle,250ml,730
+Dettol,Personal Care,Bar Soap,Each,175g,730
+
+Veet,Personal Care,Hair Removal Cream,Tube,100ml,730
+Veet,Personal Care,Wax Strips,Box,20 Strips,730
+
+Geisha,Personal Care,Bathing Soap,Each,175g,730
+Geisha,Personal Care,Bathing Soap,Each,225g,730
+
+Imperial Leather,Personal Care,Bathing Soap,Each,175g,730
+Imperial Leather,Personal Care,Shower Gel,Bottle,500ml,730
+
+Carex,Personal Care,Hand Wash,Bottle,250ml,730
+Carex,Personal Care,Hand Sanitizer,Bottle,100ml,730
+
+Colgate,Personal Care,Toothpaste,Tube,100ml,730
+Colgate,Personal Care,Toothpaste,Tube,150ml,730
+Colgate,Personal Care,Toothbrush,Each,Medium,730
+
+Colgate Kids,Personal Care,Kids Toothpaste,Tube,75ml,730
+Colgate Kids,Personal Care,Kids Toothbrush,Each,Soft,730
+
+Palmolive,Personal Care,Bar Soap,Each,175g,730
+Palmolive,Personal Care,Shower Gel,Bottle,500ml,730
+
+Always,Personal Care,Sanitary Pads,Packet,10 Pads,730
+Always,Personal Care,Sanitary Pads,Packet,20 Pads,730
+
+Head & Shoulders,Personal Care,Shampoo,Bottle,200ml,730
+Head & Shoulders,Personal Care,Shampoo,Bottle,400ml,730
+
+Gillette,Personal Care,Razor,Packet,2 Pieces,730
+Gillette,Personal Care,Shaving Foam,Can,200ml,730
+
+Oral-B,Personal Care,Toothbrush,Each,Soft,730
+Oral-B,Personal Care,Electric Toothbrush,Each,1 Piece,1825
+
+Nivea,Personal Care,Body Lotion,Bottle,400ml,730
+Nivea,Personal Care,Roll On,Bottle,50ml,730
+Nivea,Personal Care,Cream,Tin,150ml,730
+
+Dove,Personal Care,Beauty Soap,Each,175g,730
+Dove,Personal Care,Body Wash,Bottle,500ml,730
+
+Lux,Personal Care,Beauty Soap,Each,175g,730
+Lux,Personal Care,Shower Gel,Bottle,500ml,730
+
+Lifebuoy,Personal Care,Antibacterial Soap,Each,175g,730
+Lifebuoy,Personal Care,Hand Wash,Bottle,250ml,730
+
+Closeup,Personal Care,Toothpaste,Tube,100ml,730
+Closeup,Personal Care,Toothpaste,Tube,150ml,730
+
+Pepsodent,Personal Care,Toothpaste,Tube,100ml,730
+Pepsodent,Personal Care,Toothpaste,Tube,150ml,730
+
+Harpic,Cleaning Supplies,Toilet Cleaner,Bottle,500ml,730
+Harpic,Cleaning Supplies,Toilet Cleaner,Bottle,1L,730
+
+Mortein,Cleaning Supplies,Insect Spray,Can,300ml,730
+Mortein,Cleaning Supplies,Mosquito Coil,Packet,10 Pieces,730
+
+Morning Fresh,Cleaning Supplies,Dishwashing Liquid,Bottle,500ml,730
+Morning Fresh,Cleaning Supplies,Dishwashing Liquid,Bottle,750ml,730
+
+Sunlight,Cleaning Supplies,Dishwashing Liquid,Bottle,500ml,730
+Sunlight,Cleaning Supplies,Bar Soap,Each,500g,730
+
+Domestos,Cleaning Supplies,Bleach,Bottle,750ml,730
+Domestos,Cleaning Supplies,Toilet Cleaner,Bottle,750ml,730
+
+Jik,Cleaning Supplies,Bleach,Bottle,500ml,730
+Jik,Cleaning Supplies,Bleach,Bottle,1L,730
+
+Omo,Laundry,Detergent Powder,Packet,500g,730
+Omo,Laundry,Detergent Powder,Packet,1kg,730
+Omo,Laundry,Detergent Powder,Packet,2kg,730
+
+Comfort,Laundry,Fabric Softener,Bottle,800ml,730
+Comfort,Laundry,Fabric Softener,Bottle,2L,730
+
+Ariel,Laundry,Detergent Powder,Packet,1kg,730
+Ariel,Laundry,Detergent Powder,Packet,2kg,730
+
+Toss,Laundry,Detergent Powder,Packet,500g,730
+Toss,Laundry,Detergent Powder,Packet,1kg,730
+
+Boom,Laundry,Detergent Powder,Packet,500g,730
+Boom,Laundry,Detergent Powder,Packet,1kg,730
+
+Persil,Laundry,Liquid Detergent,Bottle,1L,730
+Persil,Laundry,Detergent Powder,Packet,2kg,730
+
+Cussons Baby,Baby Care,Baby Lotion,Bottle,300ml,730
+Cussons Baby,Baby Care,Baby Powder,Bottle,200g,730
+Cussons Baby,Baby Care,Baby Soap,Each,100g,730
+Cussons Baby,Baby Care,Baby Oil,Bottle,200ml,730
+
+Pampers,Baby Care,Baby Diapers,Packet,Small Pack,1825
+Pampers,Baby Care,Baby Diapers,Packet,Medium Pack,1825
+Pampers,Baby Care,Baby Diapers,Packet,Large Pack,1825
+Pampers,Baby Care,Baby Wipes,Packet,64 Pieces,730
+
+Johnson's Baby,Baby Care,Baby Shampoo,Bottle,300ml,730
+Johnson's Baby,Baby Care,Baby Oil,Bottle,200ml,730
+Johnson's Baby,Baby Care,Baby Powder,Bottle,200g,730
+
+Johnson's Lotion,Baby Care,Baby Lotion,Bottle,300ml,730
+Johnson's Lotion,Baby Care,Baby Cream,Tube,150ml,730
+
+Johnson's Soap,Baby Care,Baby Soap,Each,100g,730
+Johnson's Soap,Baby Care,Baby Soap Twin Pack,Packet,2 Pieces,730
+
+Sensodyne,Health & Pharmacy,Sensitive Toothpaste,Tube,75ml,730
+Sensodyne,Health & Pharmacy,Sensitive Toothpaste,Tube,100ml,730
+
+Panadol,Health & Pharmacy,Pain Relief Tablets,Box,16 Tablets,1095
+Panadol,Health & Pharmacy,Extra Tablets,Box,20 Tablets,1095
+Panadol,Health & Pharmacy,Syrup,Bottle,100ml,730
+
+Eno,Health & Pharmacy,Antacid Powder,Packet,100g,1095
+Eno,Health & Pharmacy,Antacid Sachets,Box,12 Sachets,1095
+
+Listerine,Health & Pharmacy,Mouthwash,Bottle,250ml,730
+Listerine,Health & Pharmacy,Mouthwash,Bottle,500ml,730
+
+Vicks,Health & Pharmacy,Vapor Rub,Jar,50g,1095
+Vicks,Health & Pharmacy,Cough Drops,Packet,20 Pieces,1095
+
+Deep Heat,Health & Pharmacy,Pain Relief Cream,Tube,100g,1095
+
+Calpol,Health & Pharmacy,Children Syrup,Bottle,100ml,730
+
+Seven Seas,Health & Pharmacy,Fish Oil Capsules,Bottle,100 Capsules,1095
+
+Centrum,Health & Pharmacy,Multivitamins,Bottle,30 Tablets,1095
+Centrum,Health & Pharmacy,Multivitamins,Bottle,60 Tablets,1095
+
+Pyrex,Kitchenware,Glass Bowl,Each,1L,3650
+Pyrex,Kitchenware,Measuring Jug,Each,1L,3650
+Pyrex,Kitchenware,Baking Dish,Each,2L,3650
+
+Tefal,Kitchenware,Frying Pan,Each,24cm,3650
+Tefal,Kitchenware,Saucepan,Each,20cm,3650
+Tefal,Kitchenware,Cooking Pot,Each,5L,3650
+
+Prestige,Kitchenware,Pressure Cooker,Each,6L,3650
+Prestige,Kitchenware,Cooking Pot Set,Each,5 Pieces,3650
+
+Luminarc,Kitchenware,Dinner Plate,Each,10 Inch,3650
+Luminarc,Kitchenware,Glass Set,Box,6 Pieces,3650
+
+Royalford,Kitchenware,Knife Set,Box,6 Pieces,3650
+Royalford,Kitchenware,Cookware Set,Box,10 Pieces,3650
+
+Signature,Kitchenware,Serving Bowl,Each,2L,3650
+Signature,Kitchenware,Cutlery Set,Box,24 Pieces,3650
+
+Bic,Stationery,Ball Pen,Packet,10 Pieces,1825
+Bic,Stationery,Pencil,Packet,12 Pieces,1825
+Bic,Stationery,Marker Pen,Packet,4 Pieces,1825
+
+Casio,Stationery,Scientific Calculator,Each,FX-991ES,3650
+Casio,Stationery,Basic Calculator,Each,MS-8B,3650
+
+Atlas,Stationery,Exercise Book,Each,120 Pages,1825
+Atlas,Stationery,Counter Book,Each,192 Pages,1825
+
+Pelikan,Stationery,Fountain Pen,Each,Medium,3650
+Pelikan,Stationery,Ink Bottle,Bottle,400ml,3650
+
+Oxford,Stationery,Notebook,Each,A4,1825
+Oxford,Stationery,Notebook,Each,A5,1825
+Oxford,Stationery,Writing Pad,Each,A4,1825
+
+Samsung,Electronics,Smart TV,Each,43 Inch,3650
+Samsung,Electronics,Smart TV,Each,55 Inch,3650
+Samsung,Electronics,Microwave,Each,25L,3650
+Samsung,Electronics,Refrigerator,Each,300L,3650
+
+LG,Electronics,Smart TV,Each,43 Inch,3650
+LG,Electronics,Washing Machine,Each,8kg,3650
+LG,Electronics,Refrigerator,Each,280L,3650
+
+Sony,Electronics,Bluetooth Speaker,Each,Portable,3650
+Sony,Electronics,Headphones,Each,Wireless,3650
+
+Philips,Electronics,Electric Kettle,Each,1.7L,3650
+Philips,Electronics,Steam Iron,Each,2200W,3650
+
+Ramtons,Electronics,Microwave,Each,20L,3650
+Ramtons,Electronics,Blender,Each,2L,3650
+
+Von,Electronics,Cooker,Each,4 Burner,3650
+Von,Electronics,Refrigerator,Each,250L,3650
+
+Pedigree,Pet Care,Dog Food,Packet,2kg,730
+Pedigree,Pet Care,Dog Food,Packet,5kg,730
+Pedigree,Pet Care,Dog Food,Packet,10kg,730
+
+Whiskas,Pet Care,Cat Food,Packet,2kg,730
+Whiskas,Pet Care,Cat Food,Packet,5kg,730
+
+Purina,Pet Care,Dog Food,Packet,2kg,730
+Purina,Pet Care,Cat Food,Packet,2kg,730
+Purina,Pet Care,Dog Treats,Packet,500g,730
+
+Friskies,Pet Care,Cat Food,Packet,2kg,730
+Friskies,Pet Care,Cat Food,Tin,400g,730
+
+SmartHeart,Pet Care,Dog Food,Packet,3kg,730
+SmartHeart,Pet Care,Puppy Food,Packet,1kg,730
+

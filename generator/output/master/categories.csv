@@ -1,26 +1,23 @@
 category_id,category_name,category_type,tax_rate,is_perishable,created_date,Last_updated_date,is_active
-{'CAT001'},Maize Flour,Grocery,0,False,2020-01-01,2025-12-31,True
-{'CAT002'},Rice,Grocery,16,False,2020-01-01,2025-12-31,True
-{'CAT003'},Sugar,Grocery,16,False,2020-01-01,2025-12-31,True
-{'CAT004'},Cooking Oil,Grocery,16,False,2020-01-01,2025-12-31,True
-{'CAT005'},Salt,Grocery,16,False,2020-01-01,2025-12-31,True
-{'CAT006'},Milk,Fresh Foods,16,True,2020-01-01,2025-12-31,True
-{'CAT007'},Yoghurt,Fresh Foods,16,True,2020-01-01,2025-12-31,True
-{'CAT008'},Cheese,Fresh Foods,16,True,2020-01-01,2025-12-31,True
-{'CAT009'},Butter,Fresh Foods,16,True,2020-01-01,2025-12-31,True
-{'CAT010'},Bread,Bakery,16,True,2020-01-01,2025-12-31,True
-{'CAT011'},Cakes,Bakery,16,True,2020-01-01,2025-12-31,True
-{'CAT012'},Soft Drinks,Beverages,16,False,2020-01-01,2025-12-31,True
-{'CAT013'},Juices,Beverages,16,False,2020-01-01,2025-12-31,True
-{'CAT014'},Water,Beverages,0,False,2020-01-01,2025-12-31,True
-{'CAT015'},Tea,Beverages,16,False,2020-01-01,2025-12-31,True
-{'CAT016'},Coffee,Beverages,16,False,2020-01-01,2025-12-31,True
-{'CAT017'},Cleaning Supplies,Household,16,False,2020-01-01,2025-12-31,True
-{'CAT018'},Laundry,Household,16,False,2020-01-01,2025-12-31,True
-{'CAT019'},Toiletries,Personal Care,16,False,2020-01-01,2025-12-31,True
-{'CAT020'},Baby Care,Personal Care,16,False,2020-01-01,2025-12-31,True
-{'CAT021'},Stationery,Office,16,False,2020-01-01,2025-12-31,True
-{'CAT022'},Electronics,Electronics,16,False,2020-01-01,2025-12-31,True
-{'CAT023'},Kitchenware,Home,16,False,2020-01-01,2025-12-31,True
-{'CAT024'},Pet Food,Pets,16,False,2020-01-01,2025-12-31,True
-{'CAT025'},Frozen Foods,Frozen,16,True,2020-01-01,2025-12-31,True
+CAT001,Grocery,Food,16,False,2020-01-01,2025-12-31,True
+CAT002,Dairy,Fresh Foods,0,True,2020-01-01,2025-12-31,True
+CAT003,Bakery,Fresh Foods,0,True,2020-01-01,2025-12-31,True
+CAT004,Fresh Produce,Fresh Foods,0,True,2020-01-01,2025-12-31,True
+CAT005,Meat & Poultry,Fresh Foods,0,True,2020-01-01,2025-12-31,True
+CAT006,Fish & Seafood,Fresh Foods,0,True,2020-01-01,2025-12-31,True
+CAT007,Frozen Foods,Frozen,16,True,2020-01-01,2025-12-31,True
+CAT008,Beverages,Beverages,16,False,2020-01-01,2025-12-31,True
+CAT009,Juices,Beverages,16,False,2020-01-01,2025-12-31,True
+CAT010,Water,Beverages,0,False,2020-01-01,2025-12-31,True
+CAT011,Tea & Coffee,Beverages,16,False,2020-01-01,2025-12-31,True
+CAT012,Snacks,Snacks,16,False,2020-01-01,2025-12-31,True
+CAT013,Confectionery,Snacks,16,False,2020-01-01,2025-12-31,True
+CAT014,Cleaning Supplies,Household,16,False,2020-01-01,2025-12-31,True
+CAT015,Laundry,Household,16,False,2020-01-01,2025-12-31,True
+CAT016,Kitchenware,Household,16,False,2020-01-01,2025-12-31,True
+CAT017,Personal Care,Health & Beauty,16,False,2020-01-01,2025-12-31,True
+CAT018,Baby Care,Health & Beauty,16,False,2020-01-01,2025-12-31,True
+CAT019,Health & Pharmacy,Health & Beauty,16,False,2020-01-01,2025-12-31,True
+CAT020,Stationery,Office,16,False,2020-01-01,2025-12-31,True
+CAT021,Electronics,Electronics,16,False,2020-01-01,2025-12-31,True
+CAT022,Pet Care,Pets,16,False,2020-01-01,2025-12-31,True

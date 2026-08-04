@@ -1,49 +1,257 @@
+import random
 import pandas as pd
 from faker import Faker
 
-from generator.config import OUTPUT_DIR
-from generator.utils import create_directory, save_csv, save_excel, generate_id, random_date
+from generator.config import OUTPUT_DIR, NUM_SUPPLIERS
+
+from generator.utils import (
+    create_directory,
+    save_csv,
+    save_excel,
+    generate_id,
+    generate_kenyan_name,
+    generate_kenyan_phone,
+    generate_supplier_email
+)
 
 faker = Faker()
 Faker.seed(42)
+random.seed(42)
+
+# ===========================================
+# LOAD REFERENCE DATA
+# ===========================================
+
+supplier_reference = pd.read_csv(
+    "generator/reference_data/suppliers.csv"
+)
+
+county_df = pd.read_csv(
+    "generator/reference_data/counties.csv"
+)
+
+town_df = pd.read_csv(
+    "generator/reference_data/towns.csv"
+)
+
+# ===========================================
+# BRANCH NAMES
+# ===========================================
+
+BRANCH_NAMES = [
+    "Nairobi Branch",
+    "Mombasa Branch",
+    "Kisumu Branch",
+    "Nakuru Branch",
+    "Eldoret Branch",
+    "Meru Branch",
+    "Nyeri Branch",
+    "Thika Branch",
+    "Kitale Branch",
+    "Machakos Branch",
+    "Kakamega Branch",
+    "Kisii Branch"
+]
 
 
-supplier_reference = pd.read_csv(f"generator/reference_data/suppliers.csv")
+# ===========================================
+# HELPER
+# ===========================================
 
-def generate_suppliers():
-    records = []
-    for index, row in supplier_reference.iterrows():
-        supplier_name = row['SupplierName']
-        category = row['CategorySupplied']
+def build_supplier_record(
+    supplier_number,
+    supplier_name,
+    category
+):
 
-    record = {
+    county = random.choice(
+        county_df["County"].tolist()
+    )
 
-        "SupplierID": generate_id("SUP", index + 1),
+    towns = town_df[
+        town_df["County"] == county
+    ]
 
-        "SupplierName": supplier_name,
+    if towns.empty:
+        town = "Unknown"
+    else:
+        town = random.choice(
+            towns["Town"].tolist()
+        )
 
-        "CategorySupplied": category,
+    return {
 
-        "ContactPerson": faker.name(),
+        "SupplierID":
+            generate_id(
+                "SUP",
+                supplier_number
+            ),
 
-        "Phone": faker.phone_number(),
+        "SupplierName":
+            supplier_name,
 
-        "Email": faker.company_email(),
+        "CategorySupplied":
+            category,
 
-        "County": faker.city(),
+        "ContactPerson":
+            generate_kenyan_name(),
 
-        "PostalAddress": faker.address(),
+        "Phone":
+            generate_kenyan_phone(),
 
-        "PaymentTerms": "Net 30",
+        "Email":
+            generate_supplier_email(
+                supplier_name.split(" - ")[0]
+            ),
 
-        "IsActive": True
+        "County":
+            county,
 
+        "Town":
+            town,
+
+        "PaymentTerms":
+            random.choice([
+                "Net 7",
+                "Net 15",
+                "Net 30",
+                "Net 45",
+                "Net 60",
+                "Cash on Delivery",
+                "Advance Payment"
+            ]),
+
+        "LeadTimeDays":
+            random.randint(2, 14),
+
+        "SupplierRating":
+            round(
+                random.uniform(
+                    3.5,
+                    5.0
+                ),
+                1
+            ),
+
+        "IsActive":
+            random.choices(
+                [True, False],
+                weights=[95, 5],
+                k=1
+            )[0]
     }
 
-    records.append(record)
-    df = pd.DataFrame(records)
+
+# ===========================================
+# MAIN FUNCTION
+# ===========================================
+
+def generate_suppliers():
+
+    records = []
+
+    supplier_number = 1
+
+    reference_rows = supplier_reference.to_dict("records")
+
+    print("Generating base suppliers...")
+
+    # ---------------------------------------
+    # FIRST: EVERY SUPPLIER ONCE
+    # ---------------------------------------
+
+    for row in reference_rows:
+
+        supplier_name = row["SupplierName"].strip()
+
+        category = row["CategorySupplied"].strip()
+
+        records.append(
+
+            build_supplier_record(
+                supplier_number,
+                supplier_name,
+                category
+            )
+
+        )
+
+        supplier_number += 1
+
+    print(
+        f"Generated {len(records)} base suppliers."
+    )
+
+        # ---------------------------------------
+    # GENERATE BRANCH SUPPLIERS
+    # ---------------------------------------
+
+    print("Generating branch suppliers...")
+
+    while supplier_number <= NUM_SUPPLIERS:
+
+        row = random.choice(reference_rows)
+
+        supplier_name = (
+            f"{row['SupplierName'].strip()} - "
+            f"{random.choice(BRANCH_NAMES)}"
+        )
+
+        category = row["CategorySupplied"].strip()
+
+        records.append(
+            build_supplier_record(
+                supplier_number,
+                supplier_name,
+                category
+            )
+        )
+
+        supplier_number += 1
+
+    # ---------------------------------------
+    # CREATE DATAFRAME
+    # ---------------------------------------
+
+    suppliers_df = pd.DataFrame(records)
+
+    # ---------------------------------------
+    # VALIDATION
+    # ---------------------------------------
+
+    if suppliers_df.empty:
+        raise ValueError("No suppliers were generated.")
+
+    if suppliers_df["SupplierID"].duplicated().any():
+        raise ValueError("Duplicate SupplierID found.")
+
+    if suppliers_df["SupplierName"].duplicated().any():
+        print("Warning: Duplicate supplier names detected (expected for branch suppliers).")
+
+    # ---------------------------------------
+    # SAVE FILES
+    # ---------------------------------------
+
     create_directory(f"{OUTPUT_DIR}/master")
-    save_csv(df, f"{OUTPUT_DIR}/master/suppliers.csv")
-    save_excel(df, f"{OUTPUT_DIR}/master/suppliers.xlsx")
-    print(f"Generated {len(df)} suppliers and saved to {OUTPUT_DIR}/master/suppliers.csv and suppliers.xlsx")
-    return df
+
+    save_csv(
+        suppliers_df,
+        f"{OUTPUT_DIR}/master/suppliers.csv"
+    )
+
+    save_excel(
+        suppliers_df,
+        f"{OUTPUT_DIR}/master/suppliers.xlsx"
+    )
+
+    print(f"Generated {len(suppliers_df)} suppliers successfully.")
+
+    return suppliers_df
+
+
+# ===========================================
+# MAIN
+# ===========================================
+
+if __name__ == "__main__":
+    generate_suppliers()

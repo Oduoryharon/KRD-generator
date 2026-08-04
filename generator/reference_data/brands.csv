@@ -1,0 +1,185 @@
+Brand,SupplierName,Category
+Brookside,Brookside Dairy Ltd,Dairy
+Ilara,Brookside Dairy Ltd,Dairy
+Molo Milk,Brookside Dairy Ltd,Dairy
+Brookside Yoghurt,Brookside Dairy Ltd,Dairy
+Brookside Mala,Brookside Dairy Ltd,Dairy
+Daima,Sameer Agriculture,Dairy
+KCC,New KCC,Dairy
+Tuzo,Kinangop Dairy,Dairy
+Fresha,Githunguri Dairy,Dairy
+Happy Cow,Happy Cow Ltd,Dairy
+Delamere,Delamere Dairy,Dairy
+Lato,Lato Milk,Dairy
+Blue Band,Upfield Kenya,Dairy
+
+Jogoo,Unga Group,Grocery
+Hostess,Unga Group,Grocery
+Ajab,Unga Group,Grocery
+Amaize,Capwell Industries,Grocery
+Soko,Capwell Industries,Grocery
+Pembe,Pembe Flour Mills,Grocery
+Kimbo,West Kenya Sugar,Grocery
+Mumias,Mumias Sugar,Grocery
+Kabras,West Kenya Sugar,Grocery
+Raha,Raha Premium,Grocery
+Bidco,Bidco Africa,Grocery
+Elianto,Bidco Africa,Grocery
+Fresh Fri,Kapa Oil Refineries,Grocery
+Golden Fry,Kapa Oil Refineries,Grocery
+Rina,Rina Industries,Grocery
+Kasuku,Kasuku Foods,Grocery
+Exe,Exe Consumer Brands,Grocery
+Crown,Crown Foods,Grocery
+Top Fry,Top Fry Ltd,Grocery
+Cerevita,Unga Group,Grocery
+Ndovu,Rift Valley Products,Grocery
+Kensalt,Ken Salt Ltd,Grocery
+
+Coca-Cola,Coca-Cola Beverages Kenya,Beverages
+Fanta,Coca-Cola Beverages Kenya,Beverages
+Sprite,Coca-Cola Beverages Kenya,Beverages
+Stoney,Coca-Cola Beverages Kenya,Beverages
+Schweppes,Coca-Cola Beverages Kenya,Beverages
+Krest,Coca-Cola Beverages Kenya,Beverages
+Pepsi,Varun Beverages Kenya,Beverages
+Mirinda,Varun Beverages Kenya,Beverages
+Mountain Dew,Varun Beverages Kenya,Beverages
+7UP,Varun Beverages Kenya,Beverages
+Red Bull,Red Bull Kenya,Beverages
+Monster,Monster Energy Kenya,Beverages
+
+Del Monte,Del Monte Kenya,Juices
+Minute Maid,Coca-Cola Beverages Kenya,Juices
+Pick N Peel,Kevian Kenya,Juices
+Afia,Kevian Kenya,Juices
+Tropical Heat Juice,Kevian Kenya,Juices
+
+Dasani,Coca-Cola Beverages Kenya,Water
+Keringet,Keringet Mineral Water,Water
+Aquamist,Aquamist Ltd,Water
+Highlands,Highlands Drinks Ltd,Water
+
+Ketepa,Ketepa Ltd,Tea & Coffee
+Kericho Gold,Gold Crown Foods,Tea & Coffee
+Nescafe,Nestlé Kenya,Tea & Coffee
+Dormans,Dormans Coffee,Tea & Coffee
+Java House Coffee,Java House Coffee,Tea & Coffee
+
+Festive,Mini Bakeries,Bakery
+Supaloaf,Mini Bakeries,Bakery
+Broadways,Broadways Bakery,Bakery
+
+Farmer's Choice,Farmer's Choice,Meat & Poultry
+Kenchic,Kenchic Ltd,Meat & Poultry
+Brade Gate,Brade Gate Poultry,Meat & Poultry
+
+Victory Fish,Victory Farms,Fish & Seafood
+Sea Harvest,Sea Harvest Kenya,Fish & Seafood
+
+Big Cold,Big Cold Ltd,Frozen Foods
+
+Krackles,Tropical Heat Ltd,Snacks
+Tropical Heat,Tropical Heat Ltd,Snacks
+Chevda,Tropical Heat Ltd,Snacks
+Potato Crisps,Tropical Heat Ltd,Snacks
+Cocktail Mix,Tropical Heat Ltd,Snacks
+Pringles,Propack Kenya,Snacks
+Lays,Propack Kenya,Snacks
+Doritos,Propack Kenya,Snacks
+Nik Naks,Propack Kenya,Snacks
+Big G,Propack Kenya,Snacks
+Popz,Propack Kenya,Snacks
+Salties,Propack Kenya,Snacks
+
+Kenafric Sweets,Kenafric Industries,Confectionery
+Kenafric Gum,Kenafric Industries,Confectionery
+Mentos,Perfetti Van Melle,Confectionery
+Airheads,Perfetti Van Melle,Confectionery
+Orbit,Wrigley East Africa,Confectionery
+PK,Wrigley East Africa,Confectionery
+Extra,Wrigley East Africa,Confectionery
+Cadbury Dairy Milk,Cadbury Kenya,Confectionery
+Cadbury Bubbly,Cadbury Kenya,Confectionery
+Chupa Chups,Perfetti Van Melle,Confectionery
+Halls,Cadbury Kenya,Confectionery
+Eclairs,Kenafric Industries,Confectionery
+
+Dettol,Reckitt Benckiser,Personal Care
+Harpic,Reckitt Benckiser,Cleaning Supplies
+Veet,Reckitt Benckiser,Personal Care
+Mortein,Reckitt Benckiser,Cleaning Supplies
+Geisha,PZ Cussons,Personal Care
+Imperial Leather,PZ Cussons,Personal Care
+Cussons Baby,PZ Cussons,Baby Care
+Morning Fresh,PZ Cussons,Cleaning Supplies
+Carex,PZ Cussons,Personal Care
+Colgate,Colgate Palmolive,Personal Care
+Colgate Kids,Colgate Palmolive,Personal Care
+Palmolive,Colgate Palmolive,Personal Care
+Sensodyne,GlaxoSmithKline Kenya,Health & Pharmacy
+Panadol,GlaxoSmithKline Kenya,Health & Pharmacy
+Eno,GlaxoSmithKline Kenya,Health & Pharmacy
+Always,Procter & Gamble Kenya,Personal Care
+Head & Shoulders,Procter & Gamble Kenya,Personal Care
+Gillette,Procter & Gamble Kenya,Personal Care
+Oral-B,Procter & Gamble Kenya,Personal Care
+Pampers,Procter & Gamble Kenya,Baby Care
+Johnson's Baby,Johnson & Johnson Kenya,Baby Care
+Johnson's Lotion,Johnson & Johnson Kenya,Baby Care
+Johnson's Soap,Johnson & Johnson Kenya,Baby Care
+Listerine,Johnson & Johnson Kenya,Health & Pharmacy
+Nivea,Nivea Kenya,Personal Care
+Dove,Unilever Kenya,Personal Care
+Lux,Unilever Kenya,Personal Care
+Lifebuoy,Unilever Kenya,Personal Care
+Closeup,Unilever Kenya,Personal Care
+Pepsodent,Unilever Kenya,Personal Care
+Sunlight,Unilever Kenya,Cleaning Supplies
+Omo,Unilever Kenya,Laundry
+Domestos,Unilever Kenya,Cleaning Supplies
+Jik,Unilever Kenya,Cleaning Supplies
+Comfort,Unilever Kenya,Laundry
+
+Ariel,Procter & Gamble Kenya,Laundry
+Toss,Bidco Africa,Laundry
+Boom,Pwani Oil Products,Laundry
+Persil,Unilever Kenya,Laundry
+
+Vicks,Procter & Gamble Kenya,Health & Pharmacy
+Deep Heat,GlaxoSmithKline Kenya,Health & Pharmacy
+Calpol,Johnson & Johnson Kenya,Health & Pharmacy
+Seven Seas,Procter & Gamble Kenya,Health & Pharmacy
+Centrum,GlaxoSmithKline Kenya,Health & Pharmacy
+
+Pyrex,Pyrex Kenya,Kitchenware
+Tefal,Tefal Kenya,Kitchenware
+Prestige,Prestige Kenya,Kitchenware
+Luminarc,Luminarc Kenya,Kitchenware
+Royalford,Royalford Kenya,Kitchenware
+Signature,Royalford Kenya,Kitchenware
+
+Samsung,Samsung Electronics Kenya,Electronics
+LG,LG Electronics Kenya,Electronics
+Sony,Sony Kenya,Electronics
+Philips,Philips Kenya,Electronics
+Ramtons,Ramtons Ltd,Electronics
+Von,Von Hotpoint,Electronics
+
+Bic,BIC Kenya,Stationery
+Casio,Casio Kenya,Stationery
+Atlas,Office Point Kenya,Stationery
+Pelikan,Text Book Centre,Stationery
+Oxford,Text Book Centre,Stationery
+
+Pedigree,Pedigree Kenya,Pet Care
+Whiskas,Whiskas Kenya,Pet Care
+Purina,Purina Kenya,Pet Care
+Friskies,Purina Kenya,Pet Care
+SmartHeart,SmartHeart Kenya,Pet Care
+
+Fresh Harvest,Fresh Harvest Suppliers,Fresh Produce
+Green Farm,Green Farm Kenya,Fresh Produce
+Nature Fresh,Nature Fresh Ltd,Fresh Produce
+Farm Choice,Farm Choice Kenya,Fresh Produce
+Organic Select,Organic Select Kenya,Fresh Produce

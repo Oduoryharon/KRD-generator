@@ -18,5 +18,8 @@ MIN_ITEMS_PER_SALE = 1
 MAX_ITEMS_PER_SALE = 10
 
 RETURN_RATE = 0.05  # 5% of sales are returned
+INJECT_DATA_QUALITY_ISSUES = True  # Set to True to inject data quality issues
+DATA_QUALITY_PERCENTAGE = 0.05
+
 
 OUTPUT_DIR = "generator/output"

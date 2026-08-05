@@ -1,6 +1,7 @@
 import random
 import pandas as pd
 from faker import Faker
+from generator.business_rules.data_quality import inject_supplier_quality
 
 from generator.config import OUTPUT_DIR, NUM_SUPPLIERS
 
@@ -214,6 +215,7 @@ def generate_suppliers():
     # ---------------------------------------
 
     suppliers_df = pd.DataFrame(records)
+    suppliers_df = inject_supplier_quality(suppliers_df)
 
     # ---------------------------------------
     # VALIDATION
@@ -239,9 +241,19 @@ def generate_suppliers():
         f"{OUTPUT_DIR}/master/suppliers.csv"
     )
 
+    save_csv(
+        suppliers_df,
+        f"{OUTPUT_DIR}/raw/suppliers_raw.csv"
+    )
+
     save_excel(
         suppliers_df,
         f"{OUTPUT_DIR}/master/suppliers.xlsx"
+    )
+
+    save_excel(
+        suppliers_df,
+        f"{OUTPUT_DIR}/raw/suppliers_raw.xlsx"
     )
 
     print(f"Generated {len(suppliers_df)} suppliers successfully.")

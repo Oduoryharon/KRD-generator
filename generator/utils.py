@@ -67,6 +67,22 @@ def generate_supplier_email(company):
 
     return f"info@{company}.{random.choice(domains)}"
 
+def generate_customer_email(first_name, last_name):
+
+    domains = [
+        "gmail.com",
+        "yahoo.com",
+        "outlook.com",
+        "hotmail.com"
+    ]
+
+    return (
+        f"{first_name.lower()}."
+        f"{last_name.lower()}"
+        f"{random.randint(1,999)}@"
+        f"{random.choice(domains)}"
+    )
+
 def generate_kenyan_name():
     return f"{random.choice(KENYAN_FIRST_NAMES)} {random.choice(KENYAN_LAST_NAMES)}"
 
@@ -90,3 +106,24 @@ def random_date(start_date: str, end_str: str):
     days_between = (end - start).days
     random_days = random.randint(0, days_between)
     return (start + timedelta(days=random_days))
+
+def random_bool(probability):
+    return random.random() < probability
+
+# Add leading and trailing spaces
+def random_spaces(value):
+    return random.choice([
+        value,
+        f" {value}",
+        f"{value} ",
+        f" {value} "
+    ])
+
+# Add randomize text casing
+def random_case(value):
+    return random.choice([
+        value,
+        value.upper(),
+        value.lower(),
+        value.title()
+    ])

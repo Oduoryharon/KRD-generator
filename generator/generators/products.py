@@ -1,5 +1,6 @@
 import random
 import pandas as pd
+from generator.business_rules.data_quality import inject_product_quality
 
 from generator.config import OUTPUT_DIR, NUM_PRODUCTS
 
@@ -308,6 +309,7 @@ def generate_products():
     # ===============================================
 
     products_df = pd.DataFrame(records)
+    products_df = inject_product_quality(products_df)
 
     # ===============================================
     # VALIDATION
@@ -336,9 +338,19 @@ def generate_products():
         f"{OUTPUT_DIR}/master/products.csv"
     )
 
+    save_csv(
+        products_df,
+        f"{OUTPUT_DIR}/raw/products_raw.csv"
+    )
+
     save_excel(
         products_df,
         f"{OUTPUT_DIR}/master/products.xlsx"
+    )
+
+    save_excel(
+        products_df,
+        f"{OUTPUT_DIR}/raw/products_raw.xlsx"
     )
 
     print(

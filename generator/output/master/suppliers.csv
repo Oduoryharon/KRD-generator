@@ -1,121 +1,122 @@
-SupplierID,SupplierName,CategorySupplied,ContactPerson,Phone,Email,County,Town,PaymentTerms,LeadTimeDays,SupplierRating,IsActive
-SUP001,Brookside Dairy Ltd,Dairy,Grace Achieng,+254714246316,admin@brooksidedairyltd.co.ke,Kajiado,Kitengela,Cash on Delivery,13,4.8,True
-SUP002,Sameer Agriculture,Dairy,James Odhiambo,+254713343962,support@sameeragriculture.ac.ke,Mombasa,Mombasa CBD,Net 7,10,3.8,True
-SUP003,New KCC,Dairy,Faith Muthoni,+254757391704,info@newkcc.co.ke,LAIKIPIA,Nanyuki,Cash on Delivery,8,4.0,True
-SUP004,Kinangop Dairy,Dairy,Peter Kariuki,+254706476417,orders@kinangopdairy.ac.ke,Murang'a,Murang'a Town,Net 30,14,3.6,True
-SUP005,Githunguri Dairy,Dairy,Peter Cheruiyot,+254718969693,admin@githunguridairy.ac.ke,Kajiado,Ngong,Advance Payment,7,4.4,True
-SUP006,Happy Cow Ltd,Dairy,Mercy Odhiambo,+254799344098,info@happycowltd.ke,Kiambu,Ruiru,Net 30,9,4.5,True
-SUP007,Delamere Dairy,Dairy,Brian Mutua,+254769816751,admin@delameredairy.co.ke,Kirinyaga,Kerugoya,Net 60,12,3.8,True
-SUP008,Lato Milk,Dairy,Esther Mutua,+254760821590,support@latomilk.co.ke,Uasin Gishu,Eldoret,Cash on Delivery,7,4.8,True
-SUP009,Upfield Kenya,Dairy,Joyce Kariuki,+254717169403,sales@upfieldkenya.ac.ke,Kakamega,Kakamega Town,Cash on Delivery,7,3.8,True
-SUP010,Unga Group,Grocery,Grace Njoroge,,support@ungagroup.ac.ke,Kilifi,Kilifi Town,Net 30,13,4.4,True
-SUP011,Capwell Industries,Grocery,Faith Njoroge,+254742617488,info@capwellindustries.co.ke,Embu,Embu Town,Advance Payment,3,3.7,True
-SUP012,Pembe Flour Mills,Grocery,Esther Kariuki,+254758590785,support@pembeflourmills.ke,Mombasa,Mombasa CBD,Net 60,2,4.5,True
-SUP013,West Kenya Sugar,Grocery,Joyce Wanjiku,+254718555884,sales@westkenyasugar.ke,laikipia,Nanyuki,Net 7,13,4.8,True
-SUP014,Mumias Sugar,Grocery,Kevin Kiprotich,+254706755674,orders@mumiassugar.ac.ke,Nyandarua,Unknown,Net 60,11,3.8,True
-SUP015,Raha Premium,Grocery,Paul Omondi,+254741120422,info@rahapremium.ke,Uasin Gishu,Eldoret,Advance Payment,14,4.0,True
-SUP016,Bidco Africa,Grocery,Peter Wambui,+254797172574,support@bidcoafrica.co.ke,Bungoma,Bungoma Town,Net 15,12,4.2,True
-SUP017,Kapa Oil Refineries,Grocery,Paul Kimani,+254713665492,admin@kapaoilrefineries.ac.ke,Meru,Makutano,Net 15,13,4.0,False
-SUP018,Rina Industries,Grocery,Samuel Muthoni,+254707359947,sales@rinaindustries.co.ke,Kirinyaga,Kerugoya,Net 30,2,4.4,True
-SUP019,Kasuku Foods,Grocery,Peter Otieno,+254714170674,info@kasukufoods.ke,Kakamega,Kakamega Town,Net 7,10,3.9,True
-SUP020,Exe Consumer Brands,Grocery,Victor Ouma,+254740354801,accounts@execonsumerbrands.ke,Kisumu,Kisumu City,Net 15,3,3.6,True
-SUP021,Crown Foods,Grocery,Dorcas Otieno,+254768785197,admin@crownfoods.co.ke,Mombasa,Nyali,Net 7,8,4.6,True
-SUP022,Top Fry Ltd,Grocery,Brian Chebet,+254745570405,sales@topfryltd.ke,Kajiado,Kitengela,Net 15,6,4.2,True
-SUP023,Rift Valley Products,Grocery,Dennis Wanjiku,+254703783823,support@riftvalleyproducts.co.ke,Machakos,Athi River,Net 7,14,4.8,True
-SUP024,Ken Salt Ltd,Grocery,Brian Kariuki,+254703272634,accounts@kensaltltd.co.ke,Kwale,Diani,Net 45,6,4.9,True
-SUP025,Coca-Cola Beverages Kenya,Beverages,Dennis Wambui,+254709299122,orders@coca-colabeverageskenya.co.ke,Nyeri,Nyeri Town,Net 7,11,4.6,True
-SUP026,Varun Beverages Kenya,Beverages,John Ouma,+254740627276,support@varunbeverageskenya.co.ke,Murang'a,Murang'a Town,Net 7,10,3.6,True
-SUP027,Red Bull Kenya,Beverages,Faith Kariuki,+254707697347,sales@redbullkenya.ac.ke,Trans Nzoia,Kitale,Net 60,2,4.4,True
-SUP028,Monster Energy Kenya,Beverages,Grace Chebet,+254762850981,orders@monsterenergykenya.co.ke,Bungoma,Bungoma Town,Net 30,8,3.7,True
-SUP029,Del Monte Kenya,Juices,Peter Mwangi,+254729751332,support@delmontekenya.co.ke,Kilifi,Kilifi Town,Net 7,10,3.8,True
-SUP030,Kevian Kenya,Juices,Faith Maina,+254718265409,accounts@keviankenya.ac.ke,Kirinyaga,Kerugoya,Cash on Delivery,6,4.4,False
-SUP031,Keringet Mineral Water,Water,James Cheruiyot,+254719795613,info@keringetmineralwater.co.ke,Nyandarua,Unknown,Net 30,3,4.8,True
-SUP032,Aquamist Ltd,Water,Mercy Nyambura,+254713852470,orders@aquamistltd.co.ke,Nakuru,Naivasha,Cash on Delivery,12,4.8,True
-SUP033,Highlands Drinks Ltd,Water,Peter Kimani,+254798390120,info@highlandsdrinksltd.co.ke,Meru,Meru Town,Net 30,14,3.7,False
-SUP034,Ketepa Ltd,Tea & Coffee,Dennis Kimani,+254746110139,info@ketepaltd.co.ke,Uasin Gishu,Eldoret,Cash on Delivery,4,4.3,True
-SUP035,Gold Crown Foods,Tea & Coffee,Ann Njoroge,+254702423232,orders@goldcrownfoods.co.ke,Bungoma,Bungoma Town,Net 30,5,4.5,True
-SUP036,Nestlé Kenya,Tea & Coffee,Paul Njoroge,+254715270395,sales@nestlékenya.ke,Kirinyaga,Kerugoya,Net 7,4,4.6,True
-SUP037,Dormans Coffee,Tea & Coffee,Grace Kiptoo,+254795835343,info@dormanscoffee.ke,Mombasa,Mombasa CBD,Advance Payment,2,4.8,True
-SUP038,Java House Coffee,Tea & Coffee,Mercy Achieng,+254714124813,admin@javahousecoffee.co.ke,Kilifi,Kilifi Town,Net 45,7,3.9,True
-SUP039,Mini Bakeries,Bakery,Samuel Kariuki,+254768984642,support@minibakeries.ke,Meru,Maua,Net 7,3,4.8,True
-SUP040,Broadways Bakery,Bakery,John Wanjiku,+254758555673,orders@broadwaysbakery.ac.ke,Bungoma,Bungoma Town,Advance Payment,7,4.2,False
-SUP041,Farmer's Choice,Meat & Poultry,Victor Chebet,+254716146542,admin@farmer'schoice.ke,Kajiado,Ngong,Net 7,10,4.9,True
-SUP042,Kenchic Ltd,Meat & Poultry,Ann Odhiambo,+254762446239,support@kenchicltd.ke,Kisumu,Kisumu City,Cash on Delivery,3,4.6,True
-SUP043,Brade Gate Poultry,Meat & Poultry,Joyce Kariuki,+254769410016,support@bradegatepoultry.co.ke,Nyeri,Nyeri Town,Net 15,8,4.5,True
-SUP044,Victory Farms,Fish & Seafood,Esther Cheruiyot,+254798100425,orders@victoryfarms.ke,Uasin Gishu,Eldoret,Net 15,8,4.7,True
-SUP045,Sea Harvest Kenya,Fish & Seafood,Dorcas Muthoni,+254768324082,support@seaharvestkenya.ke,Murang'a,Murang'a Town,Advance Payment,14,4.6,True
-SUP046,Big Cold Ltd,Frozen Foods,Peter Achieng,+254768425498,sales@bigcoldltd.co.ke,Nyeri,Nyeri Town,Net 15,2,3.6,False
-SUP047,Tropical Heat Ltd,Snacks,Dorcas Kimani,+254760703634,sales@tropicalheatltd.ac.ke,Trans Nzoia,Kitale,Cash on Delivery,8,4.2,True
-SUP048,Propack Kenya,Snacks,David Kimani,+254714284430,admin@propackkenya.ac.ke,Nairobi,Ruaka,Net 45,2,4.3,True
-SUP049,Kenafric Industries,Confectionery,Daniel Muthoni,+254762656932,support@kenafricindustries.ac.ke,Kajiado,Ngong,Net 30,14,4.8,True
-SUP050,Perfetti Van Melle,Confectionery,Ann Cheruiyot,+254728266889,admin@perfettivanmelle.ke,Nyandarua,Unknown,Net 45,6,4.6,True
-SUP051,Wrigley East Africa,Confectionery,Lucy Achieng,+254717561239,info@wrigleyeastafrica.ac.ke,Meru,Makutano,Net 30,5,3.9,True
-SUP052,Cadbury Kenya,Confectionery,Daniel Njoroge,+254714501641,,Laikipia,Nanyuki,Cash on Delivery,5,3.6,True
-SUP053,Reckitt Benckiser,Cleaning Supplies,Ann Otieno,+254713973349,accounts@reckittbenckiser.ke,Laikipia,Nanyuki,Advance Payment,11,4.9,True
-SUP054,PZ Cussons,Multiple,Lucy Mwangi,+254722413118,accounts@pzcussons.ke,bungoma,Bungoma Town,Net 60,13,4.6,True
-SUP055, Colgate Palmolive,Personal Care,Faith Mutua,+254727609232,info@colgatepalmolive.ke,Kakamega,Kakamega Town,Net 30,12,4.5,True
-SUP056,GlaxoSmithKline Kenya,Health & Pharmacy,Daniel Nyambura,+254745128276,accounts@glaxosmithklinekenya.ac.ke,Uasin Gishu,Eldoret,Net 60,12,3.5,True
-SUP057,Procter & Gamble Kenya,Personal Care,Kevin Otieno,+254716497519,orders@proctergamblekenya.co.ke,Nakuru,Naivasha,Net 45,7,4.0,True
-SUP058, Johnson & Johnson Kenya,Baby Care,Grace Odhiambo,,admin@johnsonjohnsonkenya.ac.ke,Meru,Maua,Net 7,7,3.8,True
-SUP059,Nivea Kenya,Personal Care,Faith Chebet,+254798121369,support@niveakenya.co.ke,Kiambu,Thika,Net 15,4,4.2,True
-SUP060,Unilever Kenya,Cleaning Supplies,Grace Maina,+254710735324,support@unileverkenya.ac.ke,Kisumu,Kisumu City,Cash on Delivery,3,4.7,True
-SUP061,Pwani Oil Products,Laundry,Victor Mwangi,+254719703766,admin@pwanioilproducts.ke,Nyeri,Nyeri Town,Net 45,13,3.8,True
-SUP062,Pyrex Kenya,Kitchenware,Mercy Nyambura,+254796226935,support@pyrexkenya.co.ke,Kakamega,Kakamega Town,Net 30,10,4.1,True
-SUP063,Tefal Kenya,Kitchenware,Joyce Mwangi,+254799540463,accounts@tefalkenya.co.ke,Nyandarua,Unknown,Net 45,7,4.5,True
-SUP064,Prestige Kenya,Kitchenware,Kevin Kiprotich,+254761383201,support@prestigekenya.ac.ke,Nakuru,Naivasha,Advance Payment,9,4.2,True
-SUP065,Luminarc Kenya,Kitchenware,Joyce Achieng,+254798190872,orders@luminarckenya.ke,Bungoma,Bungoma Town,Net 15,14,4.2,True
-SUP066,Royalford Kenya,Kitchenware,James Wambui,+254799440802,sales@royalfordkenya.ke,Embu,Embu Town,Net 15,7,4.7,True
-SUP067,Samsung Electronics Kenya,Electronics,Dennis Mwangi,+254743300337,info@samsungelectronicskenya.co.ke,Trans Nzoia,Kitale,Cash on Delivery,8,4.2,True
-SUP068,LG Electronics Kenya,Electronics,Dorcas Mwangi,+254705408528,sales@lgelectronicskenya.ke,Kwale,Diani,Cash on Delivery,5,4.0,True
-SUP069,Sony Kenya,Electronics,Ann Cheruiyot,+254721468900,admin@sonykenya.ke,Kwale,Diani,Net 30,6,3.9,True
-SUP070,Philips Kenya,Electronics,David Cheruiyot,+254793823688,sales@philipskenya.co.ke,Kisumu,Kisumu City,Net 15,13,4.2,True
-SUP071,Ramtons Ltd,Electronics,Paul Kamau,+254706973074,sales@ramtonsltd.ke,Nyandarua,Unknown,Net 15,7,3.8,True
-SUP072,Von Hotpoint,Electronics,Grace Otieno,+254703680238,orders@vonhotpoint.ac.ke,Laikipia,Nanyuki,Net 15,12,4.8,True
-SUP073,BIC Kenya,Stationery,Mercy Wambui,+254740561865,orders@bickenya.co.ke,Nairobi,Karen,Net 7,6,4.9,True
-SUP074,Casio Kenya,Stationery,Lucy Odhiambo,+254748760021,admin@casiokenya.co.ke,Machakos,Athi River,Net 15,4,4.7,True
-SUP075,Office Point Kenya,Stationery,David Cheruiyot,+254718265409,support@officepointkenya.ac.ke,Machakos,Machakos Town,Advance Payment,11,3.8,True
-SUP076,Text Book Centre,Stationery,Mercy Ouma,+254727420214,support@textbookcentre.ac.ke,Kilifi,Kilifi Town,Net 7,11,4.9,True
-SUP077,Pedigree Kenya,Pet Care,Grace Odhiambo,+254710351516,sales@pedigreekenya.ac.ke,Kisumu,Kisumu City,Net 7,4,3.5,True
-SUP078,Whiskas Kenya,Pet Care,Mercy Otieno,+254714402099,admin@whiskaskenya.ke,Trans Nzoia,Kitale,Cash on Delivery,9,3.6,True
-SUP079,Purina Kenya,Pet Care,Victor Chebet,+254727220351,support@purinakenya.co.ke,Meru,Makutano,Cash on Delivery,4,4.9,True
-SUP080,SmartHeart Kenya,Pet Care,Kevin Kamau,+254758885339,,Machakos,Machakos Town,Net 45,3,4.2,True
-SUP081,Fresh Harvest Suppliers,Fresh Produce,Samuel Cheruiyot,+254741559023,info@freshharvestsuppliers.ac.ke,Embu,Embu Town,Net 7,8,4.6,True
-SUP082,Green Farm Kenya,Fresh Produce,Faith Ouma,+254757121753,admin@greenfarmkenya.ke,Nairobi,Nairobi CBD,Net 60,2,4.6,True
-SUP083,Nature Fresh Ltd,Fresh Produce,Dorcas Mutua,+254711713762,accounts@naturefreshltd.ac.ke,Nyandarua,Unknown,Advance Payment,9,5.0,True
-SUP084,Farm Choice Kenya,Fresh Produce,Joyce Wanjiku,+254799268637,orders@farmchoicekenya.ke,Mombasa,Nyali,Cash on Delivery,9,3.9,True
-SUP085,Organic Select Kenya,Fresh Produces,Dorcas Odhiambo,+254720364659,orders@organicselectkenya.co.ke,Laikipia,Nanyuki,Advance Payment,8,4.8,True
-SUP086,Brookside Dairy Ltd - Kakamega Branch,Dairy,Ann Otieno,+254712643623,orders@brooksidedairyltd.ac.ke,Laikipia,Nanyuki,Advance Payment,9,4.4,True
-SUP087,Red Bull Kenya - Eldoret Branch,Beverages,Mercy Muthoni,+254769608257,info@redbullkenya.co.ke,Laikipia,Nanyuki,Cash on Delivery,11,4.7,True
-SUP088,Broadways Bakery - Kitale Branch,Bakery,Ann Odhiambo,+254714982277,info@broadwaysbakery.ke,Nairobi,Karen,Net 7,12,4.7,True
-SUP089,Java House Coffee - Kitale Branch,Tea & Coffee,Lucy Wambui,+254715578975,support@javahousecoffee.co.ke,Meru,Maua,Net 45,5,4.9,True
-SUP090,Rina Industries - Mombasa Branch,Grocery,Joyce Kiprotich,+254717960408,info@rinaindustries.ke,Meru,Maua,Cash on Delivery,6,4.8,True
-SUP091,Organic Select Kenya - Thika Branch,Fresh Produces,Dennis Wambui,+254722448588,support@organicselectkenya.ac.ke,Nakuru,Naivasha,Net 45,9,4.9,True
-SUP092,Keringet Mineral Water - Machakos Branch,Water,Ann Otieno,+254720880879,accounts@keringetmineralwater.ac.ke,Embu,Embu Town,Advance Payment,8,4.1,True
-SUP093,Farm Choice Kenya - Kisumu Branch,Fresh Produce,Daniel Kiprotich,+254757448121,info@farmchoicekenya.ke,Kwale,Diani,Net 7,10,4.9,True
-SUP094,Kasuku Foods - Nyeri Branch,Grocery,Lucy Mutua,+254721753534,admin@kasukufoods.ke,Nakuru,Nakuru Town,Cash on Delivery,3,4.8,True
-SUP095,Sony Kenya - Nyeri Branch,Electronics,Dennis Otieno,+254759171744,sales@sonykenya.ac.ke,Murang'a,Murang'a Town,Cash on Delivery,6,5.0,True
-SUP096,GlaxoSmithKline Kenya - Mombasa Branch,Health & Pharmacy,Kevin Kamau,+254701148225,orders@glaxosmithklinekenya.co.ke,Kajiado,Ngong,Net 30,7,4.1,True
-SUP097,LG Electronics Kenya - Nyeri Branch,Electronics,Kevin Kiptoo,+254705739098,accounts@lgelectronicskenya.ac.ke,Bungoma,Bungoma Town,Cash on Delivery,5,4.2,True
-SUP098,Kevian Kenya - Thika Branch,Juices,Grace Mwangi,+254796587853,orders@keviankenya.ac.ke,Meru,Maua,Net 60,4,3.6,True
-SUP099,Text Book Centre - Eldoret Branch,Stationery,Dorcas Kamau,+254712503380,accounts@textbookcentre.co.ke,Mombasa,Nyali,Net 15,8,4.4,True
-SUP100,Java House Coffee - Nairobi Branch,Tea & Coffee,James Ouma,+254748760021,admin@javahousecoffee.co.ke,Embu,Embu Town,Net 60,13,4.2,True
-SUP101,Dormans Coffee - Nakuru Branch,Tea & Coffee,Faith Chebet,+254759362801,admin@dormanscoffee.ac.ke,Trans Nzoia,Kitale,Advance Payment,12,4.5,True
-SUP102,West Kenya Sugar - Kakamega Branch,Grocery,Dorcas Otieno,+254757482584,admin@westkenyasugar.co.ke,Kiambu,Kiambu Town,Net 7,6,4.0,True
-SUP103,Varun Beverages Kenya - Kisumu Branch,Beverages,Samuel Kiprotich,+254717970813,sales@varunbeverageskenya.ke,Laikipia,Nanyuki,Advance Payment,9,5.0,True
-SUP104,Victory Farms - Mombasa Branch,Fish & Seafood,Daniel Achieng,+254768859396,admin@victoryfarms.ke,Kilifi,Kilifi Town,Advance Payment,14,4.3,True
-SUP105,Wrigley East Africa - Nairobi Branch,Confectionery,David Muthoni,+254723805511,admin@wrigleyeastafrica.ac.ke,Meru,Makutano,Net 30,11,4.1,True
-SUP106,Propack Kenya - Mombasa Branch,Snacks,James Nyambura,+254746443939,support@propackkenya.co.ke,Kakamega,Kakamega Town,Cash on Delivery,3,4.5,True
-SUP107,Mini Bakeries - Kakamega Branch,Bakery,Daniel Otieno,+254702419149,accounts@minibakeries.co.ke,Mombasa,Mombasa CBD,Net 7,5,4.8,True
-SUP108,Nivea Kenya - Meru Branch,Personal Care,Victor Njoroge,+254726786735,info@niveakenya.ke,Laikipia,Nanyuki,Net 60,8,4.9,True
-SUP109,Propack Kenya - Nakuru Branch,Snacks,Faith Maina,+254706818987,orders@propackkenya.ac.ke,kilifi,Kilifi Town,Cash on Delivery,7,3.6,True
-SUP110,Bidco Africa - Thika Branch,Grocery,Brian Nyambura,+254701153035,orders@bidcoafrica.co.ke,Machakos,Mlolongo,Net 15,14,4.3,True
-SUP111,Ramtons Ltd - Nakuru Branch,Electronics,Faith Omondi,+254794254721,support@ramtonsltd.co.ke,Bungoma,Bungoma Town,Net 30,4,5.0,True
-SUP112,Rift Valley Products - Mombasa Branch,Grocery,James Maina,+254795926730,sales@riftvalleyproducts.ac.ke,Nairobi,Westlands,Net 30,2,3.8,True
-SUP113,PZ Cussons - Kitale Branch,Multiple,Lucy Muthoni,+254794479625,support@pzcussons.ac.ke,Kajiado,Kitengela,Net 7,9,4.3,True
-SUP114,Happy Cow Ltd - Kisii Branch,Dairy,Mercy Muthoni,+254761132663,info@happycowltd.ke,Nyandarua,Unknown,Advance Payment,8,4.1,True
-SUP115,Procter & Gamble Kenya - Mombasa Branch,Personal Care,Paul Njoroge,+254704232321,orders@proctergamblekenya.ac.ke,Machakos,Athi River,Cash on Delivery,11,4.3,True
-SUP116,Pedigree Kenya - Kitale Branch,Pet Care,Samuel Nyambura,+254727203996,admin@pedigreekenya.co.ke,Nyeri,Nyeri Town,Advance Payment,12,4.5,True
-SUP117,Monster Energy Kenya - Nyeri Branch,Beverages,Ann Omondi,+254797575528,accounts@monsterenergykenya.ke,Kilifi,Kilifi Town,Cash on Delivery,3,4.0,True
-SUP118,Highlands Drinks Ltd - Meru Branch,Water,Lucy Odhiambo,+254705972176,info@highlandsdrinksltd.co.ke,Nakuru,Gilgil,Net 45,3,4.6,True
-SUP119,Kapa Oil Refineries - Kitale Branch,Grocery,David Kimani,+254722797660,accounts@kapaoilrefineries.ac.ke,Kiambu,Kiambu Town,Net 7,6,4.4,True
-SUP120,Casio Kenya - Kitale Branch,Stationery,Lucy Achieng,+254799213475,orders@casiokenya.ac.ke,Kisumu,Kisumu City,Net 30,3,4.6,True
+SupplierID,SupplierName,CategorySupplied,ContactPerson,Phone,Email,County,Town,PaymentTerms,CreatedDate,LastUpdatedDate,LeadTimeDays,IsActive
+SUP001,Brookside Dairy Ltd,Dairy,Grace Achieng,+254714246316,admin@brooksidedairyltd.co.ke,Kajiado,Kitengela,Cash on Delivery,2020-01-01,2025-12-31,2.0,True
+SUP002,Sameer Agriculture,Dairy,Samuel Nyambura,+254701688508,sales@sameeragriculture.ac.ke,Kisumu,Kisumu City,Cash on Delivery,2020-01-01,2025-12-31,9.0,True
+SUP003,New KCC,Dairy,Kevin Kimani,+254721391369,sales@newkcc.co.ke,Nairobi,Ruaka,Advance Payment,2020-01-01,2025-12-31,3.0,True
+SUP004,Kinangop Dairy,Dairy,Paul Mutua,+254796145561,admin@kinangopdairy.ke,Kirinyaga,Kerugoya,Net 60,2020-01-01,2025-12-31,3.0,True
+SUP005,Githunguri Dairy,Dairy,Victor Chebet,+254790172933,info@githunguridairy.ac.ke,Trans Nzoia,Kitale,Net 15,2020-01-01,2025-12-31,5.0,True
+SUP006,Happy Cow Ltd,Dairy,Dorcas Maina,254710488162,orders@happycowltd.co.ke,Embu,Embu Town,Cash on Delivery,2020-01-01,2025-12-31,11.0,True
+SUP007,Delamere Dairy,Dairy,Kevin Muthoni,+254724383060,admin@delameredairy.ac.ke,Laikipia,Nanyuki,Net 60,2020-01-01,2025-12-31,14.0,True
+SUP008,Lato Milk,Dairy,Joyce Kariuki,+254717169403,sales@latomilk.ac.ke,Kakamega,Kakamega Town,Cash on Delivery,2020-01-01,2025-12-31,12.0,True
+SUP009,Upfield Kenya,Dairy,Grace Njoroge,+254715881177,support@upfieldkenya.ac.ke,Kilifi,Kilifi Town,Net 30,2020-01-01,2025-12-31,7.0,True
+SUP010,Unga Group,Grocery,Lucy Odhiambo,+254793149405,info@ungagroup.co.ke,Nakuru,Gilgil,Cash on Delivery,2020-01-01,2025-12-31,11.0,True
+SUP011,Capwell Industries,Grocery,Samuel Mutua,+254746112038,admin@capwellindustries.ac.ke,Embu,Embu Town,Net 7,2020-01-01,2025-12-31,3.0,True
+SUP012,Pembe Flour Mills,Grocery,James Mutua,+254742898975,sales@pembeflourmills.ac.ke,Uasin Gishu,Eldoret,Net 7,2020-01-01,2025-12-31,4.0,True
+SUP013,West Kenya Sugar,Grocery,Paul Omondi,+254741120422,info@westkenyasugar.ke,Uasin Gishu,Eldoret,Advance Payment,2020-01-01,2025-12-31,2.0,True
+SUP014,Mumias Sugar,Grocery,Peter Wambui,+254797172574,support@mumiassugar.co.ke,Bungoma,Bungoma Town,Net 15,2020-01-01,2025-12-31,6.0,True
+SUP015,Raha Premium,Grocery,Brian Cheruiyot,+254793865388,admin@rahapremium.co.ke,Trans Nzoia,Kitale,Cash on Delivery,2020-01-01,2025-12-31,12.0,True
+SUP016,Bidco Africa,Grocery,David Achieng,+254714167136,orders@bidcoafrica.co.ke,Kilifi,Kilifi Town,Net 60,2020-01-01,2025-12-31,2.0,True
+SUP017,Kapa Oil Refineries,Grocery,Peter Otieno,+254721174299,support@kapaoilrefineries.co.ke.,Kiambu,Ruiru,Net 30,2020-01-01,2025-12-31,10.0,True
+SUP018,Rina Industries,Grocery,Faith Wambui,+254796526833,sales@rinaindustries.co.ke,Bungoma,Bungoma Town,Net 7,2020-01-01,2025-12-31,8.0,True
+SUP019,Kasuku Foods,Grocery,John Kariuki,+254791455784,info@kasukufoods.co.ke,Kiambu,Thika,Net 15,2020-01-01,2025-12-31,4.0,True
+SUP020,Exe Consumer Brands,Grocery,Faith Odhiambo,+254728947272,support@execonsumerbrands.co.ke,Meru,Maua,Net 7,2020-01-01,2025-12-31,14.0,True
+SUP021,Crown Foods,Grocery,Lucy Wambui,+254713520521,info@crownfoods.co.ke,Uasin Gishu,Eldoret,Net 45,2020-01-01,2025-12-31,6.0,True
+SUP022,Top Fry Ltd,Grocery,Ann Cheruiyot,+254762853305,accounts@topfryltd.co.ke,Kilifi,Kilifi Town,Net 15,2020-01-01,2025-12-31,2.0,True
+SUP023,Rift Valley Products,Grocery,Joyce Otieno,+254703712554,accounts@riftvalleyproducts.ac.ke,Laikipia,Nanyuki,Advance Payment,2020-01-01,2025-12-31,10.0,True
+SUP024,Ken Salt Ltd,Grocery,Paul Odhiambo,+254768346629,accounts@kensaltltd.co.ke,Uasin Gishu,Eldoret,Net 60,2020-01-01,2025-12-31,11.0,True
+SUP025,Coca-Cola Beverages Kenya,Beverages,Grace Chebet,+254762850981,orders@coca-colabeverageskenya.co.ke,Bungoma,Bungoma Town,Net 30,2020-01-01,2025-12-31,12.0,True
+SUP026,Varun Beverages Kenya,Beverages,Peter Mwangi,+254729751332,support@varunbeverageskenya.co.ke,Kilifi,Kilifi Town,Net 7,2020-01-01,2025-12-31,4.0,True
+SUP027,Red Bull Kenya,Beverages,Mary Kamau,+254710559469,support@redbullkenya.ac.ke,Machakos,Machakos Town,Net 30,2020-01-01,2025-12-31,12.0,True
+SUP028,Monster Energy Kenya,Beverages,David Wanjiku,+254792680097,sales@monsterenergykenya.ke,Nakuru,Naivasha,Net 30,2020-01-01,2025-12-31,5.0,True
+SUP029,Del Monte Kenya,Juices,Lucy Mutua,+254799153266,info@delmontekenya.ac.ke,Meru,Makutano,Net 45,2020-01-01,2025-12-31,2.0,True
+SUP030,Kevian Kenya,Juices,Grace Kiptoo,+254792563298,support@keviankenya.ac.ke,Nakuru,Gilgil,Net 45,2020-01-01,2025-12-31,3.0,True
+SUP031,Keringet Mineral Water,Water,John Maina,+254757679364,sales@keringetmineralwater.ke,Nakuru,Gilgil,Net 15,2020-01-01,2025-12-31,7.0,True
+SUP032,Aquamist Ltd,Water,Brian Achieng,+254762207786,orders@aquamistltd.ac.ke,Kiambu,Kiambu Town,Advance Payment,2020-01-01,2025-12-31,5.0,True
+SUP033,Highlands Drinks Ltd,Water,James Kiptoo,+254792448321,accounts@highlandsdrinksltd.ac.ke,Uasin Gishu,Eldoret,Advance Payment,2020-01-01,2025-12-31,4.0,True
+SUP034,Ketepa Ltd,Tea & Coffee,John Wambui,+254714309267,accounts@ketepaltd.ke,Kajiado,Ngong,Net 30,2020-01-01,2025-12-31,2.0,True
+SUP035,Gold Crown Foods,Tea & Coffee,Grace Odhiambo,+254794392683,orders@goldcrownfoods.ac.ke,Embu,Embu Town,Net 60,2020-01-01,2025-12-31,2.0,True
+SUP036,Nestlé Kenya,Tea & Coffee,Victor Mutua,+254702213668,support@nestlékenya.ke,Meru,Meru Town,Net 30,2020-01-01,2025-12-31,11.0,False
+SUP037,Dormans Coffee,Tea & Coffee,Victor Chebet,+254716146542,admin@dormanscoffee.ke,Kajiado,Ngong,Net 7,2020-01-01,2025-12-31,8.0,True
+SUP038,Java House Coffee,Tea & Coffee,David Kamau,+254742424308,admin@javahousecoffee.ke,Murang'a,Murang'a Town,Net 30,2020-01-01,2025-12-31,10.0,True
+SUP039,Mini Bakeries,Bakery,Kevin Nyambura,+254748415568,accounts@minibakeries.ac.ke,Mombasa,Nyali,Advance Payment,2020-01-01,2025-12-31,6.0,True
+SUP040,Broadways Bakery,Bakery,Dorcas Muthoni,+254728808446,sales@broadwaysbakery.ac.ke,Bungoma,Bungoma Town,Net 45,2020-01-01,2025-12-31,6.0,True
+SUP041,Farmer's Choice,Meat & Poultry,Peter Achieng,+254768425498,sales@farmer'schoice.co.ke,Trans Nzoia,Kitale,Net 15,2020-01-01,2025-12-31,5.0,False
+SUP042,Kenchic Ltd,Meat & Poultry,Dorcas Kimani,+254760703634,sales@kenchicltd.ac.ke,Trans Nzoia,Kitale,Cash on Delivery,2020-01-01,2025-12-31,8.0,True
+SUP043,Brade Gate Poultry,Meat & Poultry,David Kimani,+254714284430,admin@bradegatepoultry.ac.ke,Nairobi,Ruaka,Net 45,2020-01-01,2025-12-31,3.0,True
+SUP044,Victory Farms,Fish & Seafood,Dorcas Nyambura,+254797854213,support@victoryfarms.ke,Kilifi,Kilifi Town,Advance Payment,2020-01-01,2025-12-31,13.0,True
+SUP045,Sea Harvest Kenya,Fish & Seafood,Faith Mutua,+254794915451,support@seaharvestkenya.ke,Kilifi,Kilifi Town,Cash on Delivery,2020-01-01,2025-12-31,9.0,True
+SUP046,Big Cold Ltd,Frozen Foods,Grace Omondi,+254720666390,info@bigcoldltd.co.ke,Nyeri,Nyeri Town,Net 15,2020-01-01,2025-12-31,13.0,True
+SUP047,Tropical Heat Ltd,Snacks,Ann Kimani,+254721668969,accounts@tropicalheatltd.ke,Kisumu,Kisumu City,Net 7,2020-01-01,2025-12-31,8.0,True
+SUP048,Propack Kenya,Snacks,Victor Kariuki,+254740106182,orders@propackkenya.ke,Bungoma,Bungoma Town,Advance Payment,2020-01-01,2025-12-31,10.0,True
+SUP049,Kenafric Industries,Confectionery,Lucy Achieng,+254717557007,accounts@kenafricindustries.co.ke,Laikipia,Nanyuki,Net 45,2020-01-01,2025-12-31,13.0,True
+SUP050,Perfetti Van Melle,Confectionery,Paul Cheruiyot,+254701513160,support@perfettivanmelle.ac.ke,Kilifi,Kilifi Town,Cash on Delivery,2020-01-01,2025-12-31,12.0,True
+SUP051,Wrigley East Africa,Confectionery,John Mutua,+254724443254,sales@wrigleyeastafrica.ke,Kilifi,Kilifi Town,Net 30,2020-01-01,2025-12-31,6.0,True
+SUP052,Cadbury Kenya,Confectionery,Peter Wambui,+254701885408,support@cadburykenya.co.ke,Mombasa,Nyali,Net 30,2020-01-01,2025-12-31,14.0,False
+SUP053,Reckitt Benckiser,Cleaning Supplies,Faith Chebet,+254798121369,support@reckittbenckiser.co.ke,Kiambu,Thika,Net 15,2020-01-01,2025-12-31,12.0,True
+SUP054,PZ Cussons,Multiple,Grace Maina,+254710735324,support@pzcussons.ac.ke,Kisumu,Kisumu City,Cash on Delivery,2020-01-01,2025-12-31,6.0,True
+SUP055,Colgate Palmolive,Personal Care,Victor Kariuki,+254725849747,sales@colgatepalmolive.co.ke,NRB,Eastleigh,Net 60,2020-01-01,2025-12-31,13.0,True
+SUP056,GlaxoSmithKline Kenya,Health & Pharmacy,Victor Otieno,+254722658623,accounts@glaxosmithklinekenya.ac.ke,Trans Nzoia,Kitale,Net 30,2020-01-01,2025-12-31,2.0,True
+SUP057,Procter & Gamble Kenya,Personal Care,Ann Maina,+254760968962,accounts@proctergamblekenya.ac.ke,Kwale,Diani,Net 15,2020-01-01,2025-12-31,13.0,True
+SUP058,Johnson & Johnson Kenya,Baby Care,Dennis Wambui,+254729556732,admin@johnsonjohnsonkenya.ac.ke,Meru,Makutano,Net 30,2020-01-01,2025-12-31,3.0,True
+SUP059,Nivea Kenya,Personal Care,Dorcas Ouma,+254759800646,accounts@niveakenya.ke,Kilifi,Kilifi Town,Net 7,2020-01-01,2025-12-31,4.0,True
+SUP060,Unilever Kenya,Cleaning Supplies,Joyce Mutua,+254758835244,orders@unileverkenya.ac.ke,Kirinyaga,Kerugoya,Net 7,2020-01-01,2025-12-31,5.0,True
+SUP061,Pwani Oil Products,Laundry,Lucy Wambui,+254728931450,info@pwanioilproducts.co.ke,Kwale,Diani,Net 30,2020-01-01,2025-12-31,13.0,True
+SUP062,Pyrex Kenya,Kitchenware,Lucy Cheruiyot,+254743460455,accounts@pyrexkenya.ac.ke,Bungoma,Bungoma Town,Net 60,2020-01-01,2025-12-31,13.0,True
+SUP063,Tefal Kenya,Kitchenware,Faith Wanjiku,+254791301939,orders@tefalkenya.co.ke,Nyeri,Nyeri Town,Cash on Delivery,2020-01-01,2025-12-31,5.0,True
+SUP064,Prestige Kenya,Kitchenware,Victor Kiprotich,+254758396745,info@prestigekenya.co.ke,Meru,Makutano,Net 30,2020-01-01,2025-12-31,4.0,True
+SUP065,Luminarc Kenya,Kitchenware,Grace Otieno,0703680238,orders@luminarckenya.ac.ke,Laikipia,Nanyuki,Net 15,2020-01-01,2025-12-31,2.0,True
+SUP066,Royalford Kenya,Kitchenware,Dorcas Omondi,+254711153872,orders@royalfordkenya.ke,Kwale,Diani,Net 7,2020-01-01,2025-12-31,9.0,True
+SUP067, Samsung Electronics Kenya,Electronics,Daniel Ouma,+254719189318,sales@samsungelectronicskenya.co.ke,Kiambu,Ruiru,Net 60,2020-01-01,2025-12-31,14.0,True
+SUP068,LG Electronics Kenya,Electronics,Mercy Ouma,+254727420214,support@lgelectronicskenya.ac.ke,Kilifi,Kilifi Town,Net 7,2020-01-01,2025-12-31,12.0,True
+SUP069,Sony Kenya,Electronics,Faith Kiptoo,+254746178711,sales@sonykenya.co.ke,Machakos,Machakos Town,Net 45,2020-01-01,2025-12-31,6.0,True
+SUP070,Philips Kenya,Electronics,Dorcas Odhiambo,+254768344762,orders@philipskenya.ac.ke,Nyeri,Nyeri Town,Net 60,2020-01-01,2025-12-31,3.0,True
+SUP071,Ramtons Ltd,Electronics,Daniel Odhiambo,+254703273982,orders@ramtonsltd.ac.ke,Nakuru,Naivasha,Cash on Delivery,2020-01-01,2025-12-31,3.0,True
+SUP072,Von Hotpoint,Electronics,Grace Kiprotich,+254745617781,accounts@vonhotpoint.co.ke,Nyeri,Nyeri Town,Net 60,2020-01-01,2025-12-31,13.0,True
+SUP073,BIC Kenya,Stationery,Peter Achieng,+254768976566,support@bickenya.ac.ke,Meru,Meru Town,Net 7,2020-01-01,2025-12-31,14.0,True
+SUP074,Casio Kenya,Stationery,Grace Kiptoo,+254757557058,admin@casiokenya.ke,Kwale,Diani,Net 7,2020-01-01,2025-12-31,8.0,True
+SUP075,Office Point Kenya,Stationery,Joyce Kimani,+254769619536,orders@officepointkenya.ac.ke,Kajiado,Kitengela,Net 45,2020-01-01,2025-12-31,3.0,True
+SUP076, Text Book Centre ,Stationery,Esther Kiprotich,+254797101206,admin@textbookcentre.ac.ke,Murang'a,Murang'a Town,Net 45,2020-01-01,2025-12-31,5.0,True
+SUP077,Pedigree Kenya,Pet Care,Dorcas Otieno,+254713380028,support@pedigreekenya.co.ke,Trans Nzoia,Kitale,Net 30,2020-01-01,2025-12-31,3.0,True
+SUP078,Whiskas Kenya,Pet Care,Kevin Kamau,+254746114338,,Trans Nzoia,Kitale,Net 7,2020-01-01,2025-12-31,9.0,True
+SUP079,Purina Kenya,Pet Care,Mercy Kiprotich,+254790386706,accounts@purinakenya.ke,Nakuru County,Naivasha,Net 45,2020-01-01,2025-12-31,10.0,True
+SUP080,SmartHeart Kenya,Pet Care,Peter Mutua,+254794928381,accounts@smartheartkenya.ke,Kisumu,Kisumu City,Advance Payment,2020-01-01,2025-12-31,6.0,True
+SUP081,Fresh Harvest Suppliers,Fresh Produce,Daniel Muthoni,+254745607868,orders@freshharvestsuppliers.ke,Bungoma,Bungoma Town,Net 60,2020-01-01,2025-12-31,7.0,True
+SUP082,Green Farm Kenya,Fresh Produce,Faith Kimani,+254702433632,admin@greenfarmkenya.ke,Kakamega,Kakamega Town,Cash on Delivery,2020-01-01,2025-12-31,12.0,True
+SUP083,Nature Fresh Ltd,Fresh Produce,John Njoroge,+254742718849,orders@naturefreshltd.co.ke,Nakuru,Naivasha,Advance Payment,2020-01-01,2025-12-31,10.0,True
+SUP084,Farm Choice Kenya,Fresh Produce,Daniel Kimani,+254761261859,info@ farmchoicekenya.ke,Nairobi,Kilimani,Advance Payment,2020-01-01,2025-12-31,11.0,True
+SUP085,Organic Select Kenya,Fresh Produces,Dennis Kariuki,+254720757246,admin@organicselectkenya.ke,Machakos,Athi River,Advance Payment,2020-01-01,2025-12-31,5.0,True
+SUP086,Dormans Coffee - Nakuru Branch,Tea & Coffee,David Wanjiku,+254728274446,admin@dormanscoffee.ke,Machakos,Athi River,Net 7,2020-01-01,2025-12-31,14.0,True
+SUP087,Big Cold Ltd - Meru Branch,Frozen Foods,Faith Kiprotich,+254726693418,admin@bigcoldltd.co.ke,Mombasa,Mombasa CBD,Net 15,2020-01-01,2025-12-31,11.0,True
+SUP088,SmartHeart Kenya - Kakamega Branch,Pet Care,Victor Njoroge,254714583550,admin@smartheartkenya.ke,Kakamega,Kakamega Town,Net 45,2020-01-01,2025-12-31,14.0,True
+SUP089,Dormans Coffee - Kakamega Branch,Tea & Coffee,Peter Muthoni,+254722716113,orders@dormanscoffee.ac.ke,Laikipia,Nanyuki,Net 45,2020-01-01,2025-12-31,6.0,True
+SUP090,Perfetti Van Melle - Thika Branch,Confectionery,Esther Ouma,+254722702733,orders@perfettivanmelle.ac.ke,Kajiado,Kitengela,Net 30,2020-01-01,2025-12-31,6.0,True
+SUP091,Delamere Dairy - Machakos Branch,Dairy,Faith Nyambura,+254796469435,sales@delameredairy.ac.ke,Kwale,Diani,Net 15,2020-01-01,2025-12-31,12.0,True
+SUP092,Fresh Harvest Suppliers - Kakamega Branch,Fresh Produce,Dorcas Otieno,+254757482584,admin@freshharvestsuppliers.co.ke,Kiambu,Kiambu Town,Net 7,2020-01-01,2025-12-31,13.0,True
+SUP093,Varun Beverages Kenya - Kisumu Branch,Beverages,Samuel Kiprotich,+254717970813,sales@varunbeverageskenya.ke,Laikipia,Nanyuki,Advance Payment,2020-01-01,2025-12-31,13.0,True
+SUP094,Raha Premium - Thika Branch,Grocery,Faith Kariuki,+254799943671,support@rahapremium.ke,Machakos,Machakos Town,Net 7,2020-01-01,2025-12-31,6.0,True
+SUP095,Nivea Kenya - Meru Branch,Personal Care,Esther Maina,+254706807617,sales@niveakenya.ke,Meru,Makutano,Net 7,2020-01-01,2025-12-31,12.0,True
+SUP096,Unilever Kenya - Kisii Branch,Cleaning Supplies,David Njoroge,+254702139019,orders@unileverkenya.ke,Nyeri,Nyeri Town,Net 7,2020-01-01,2025-12-31,10.0,True
+SUP097,Nivea Kenya - Meru Branch,Personal Care,Victor Njoroge,+254726786735,info@niveakenya.ke,Laikipia,Nanyuki,Net 60,2020-01-01,2025-12-31,2.0,True
+SUP098,Monster Energy Kenya - Thika Branch,Beverages,Mary Wanjiku,+254768485178,support@monsterenergykenya.ac.ke,Kilifi,Kilifi Town,Net 30,2020-01-01,2025-12-31,6.0,True
+SUP099,Bidco Africa - Thika Branch,Grocery,Brian Nyambura,+254701153035,orders@bidcoafrica.co.ke,Machakos,Mlolongo,Net 15,2020-01-01,2025-12-31,14.0,True
+SUP100,Text Book Centre - Nakuru Branch,Stationery,Daniel Nyambura,+254700390743,sales@textbookcentre.co.ke,Kakamega,Kakamega Town,Net 60,2020-01-01,2025-12-31,3.0,True
+SUP101,Kinangop Dairy - Kisumu Branch ,Dairy,Faith Ouma,+254720116547,sales@kinangopdairy.ke,Nairobi,Eastleigh,Net 7,2020-01-01,2025-12-31,10.0,True
+SUP102,Upfield Kenya - Thika Branch,Dairy,Samuel Ouma,+254706573962,"support@upfieldkenya,co.ke",Kilifi,Kilifi Town,Net 60,2020-01-01,2025-12-31,9.0,True
+SUP103,Kinangop Dairy - Nairobi Branch,Dairy,Ann Wanjiku,+254741847006,accounts@kinangopdairy.co.ke,Kwale,Diani,Net 7,2020-01-01,2025-12-31,3.0,True
+SUP104,SmartHeart Kenya - Kakamega Branch,Pet Care,Esther Nyambura,+254743409222,accounts@smartheartkenya.ac.ke,Bungoma,Bungoma Town,Net 60,2020-01-01,2025-12-31,14.0,True
+SUP105,Farm Choice Kenya - Kakamega Branch,Fresh Produce,Ann Muthoni,+254714533914,orders@farmchoicekenya.ke,Laikipia,Nanyuki,Net 45,2020-01-01,2025-12-31,7.0,True
+SUP106,Highlands Drinks Ltd - Meru Branch,Water,Lucy Odhiambo,+254705972176,info@highlandsdrinksltd.co.ke,Nakuru,Gilgil,Net 45,2020-01-01,2025-12-31,14.0,True
+SUP107,Lato Milk - Machakos Branch,Dairy,David Kimani,+254722797660,accounts@latomilk.ac.ke,Laikipia,Nanyuki,Net 7,2020-01-01,2025-12-31,7.0,True
+SUP108,Luminarc Kenya - Nakuru Branch,Kitchenware,Lucy Achieng,+254799213475,orders@luminarckenya.ac.ke,Nakuru,Gilgil,Net 30,2020-01-01,2025-12-31,11.0,True
+SUP109,Colgate Palmolive - Kitale Branch,Personal Care,Paul Mutua,+254701289179,orders@colgatepalmolive.ac.ke,Trans Nzoia,Kitale,Advance Payment,2020-01-01,2025-12-31,7.0,True
+SUP110,Kasuku Foods - Machakos Branch,Grocery,Daniel Mwangi,+254705882354,support@kasukufoods.co.ke,Embu,Embu Town,Net 45,2020-01-01,2025-12-31,7.0,True
+SUP111,Broadways Bakery - Kisii Branch,Bakery,John Njoroge,+254710891083,support@broadwaysbakery.co.ke,Murang'a,Murang'a Town,Cash on Delivery,2020-01-01,2025-12-31,9.0,True
+SUP112,Tefal Kenya - Machakos Branch,Kitchenware,Grace Chebet,+254793637234,info@tefalkenya.ke,Kilifi,Kilifi Town,Net 45,2020-01-01,2025-12-31,12.0,True
+SUP113,Tefal Kenya - Kitale Branch,Kitchenware,Faith Kariuki,+254758157443,info@tefalkenya.co.ke,Nyeri,Nyeri Town,Net 30,2020-01-01,2025-12-31,14.0,True
+SUP114,Kenchic Ltd - Mombasa Branch,Meat & Poultry,Ann Kiptoo,+254708498676,support@kenchicltd.ac.ke,Nairobi,Kasarani,Net 15,2020-01-01,2025-12-31,8.0,True
+SUP115,Happy Cow Ltd - Nyeri Branch,Dairy,Peter Omondi,+254748550137,support@happycowltd.ke,Nairobi,Kasarani,Cash on Delivery,2020-01-01,2025-12-31,3.0,True
+SUP116,Kenchic Ltd - Kisumu Branch,Meat & Poultry,Mary Odhiambo,+254727985506,info@kenchicltd.co.ke,Trans Nzoia,Kitale,Net 45,2020-01-01,2025-12-31,8.0,True
+SUP117,Victory Farms - Nakuru Branch,Fish & Seafood,Peter Kiprotich,+254760219565,support@victoryfarms.ac.ke,Murang'a,Murang'a Town,Net 15,2020-01-01,2025-12-31,13.0,False
+SUP118,Nature Fresh Ltd - Kisumu Branch,Fresh Produce,Daniel Mutua,+254712281926,support@naturefreshltd.co.ke,Kakamega,Kakamega Town,Advance Payment,2020-01-01,2025-12-31,14.0,True
+SUP119,Unilever Kenya - Machakos Branch,Cleaning Supplies,Victor Nyambura,+254720757685,orders@unileverkenya.co.ke,Bungoma,Bungoma Town,Net 45,2020-01-01,2025-12-31,9.0,True
+SUP120,Nestlé Kenya - Machakos Branch,Tea & Coffee,Samuel Odhiambo,+254719584172,accounts@nestlékenya.co.ke,Kiambu,Kiambu Town,Net 7,2020-01-01,2025-12-31,3.0,True
+,,,,+254793637234,,,,,,,,

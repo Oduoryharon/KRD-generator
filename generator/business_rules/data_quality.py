@@ -22,6 +22,110 @@ def remove_value(value):
         return None
     return value
 
+def supplier_name_variation(name):
+    if pd.isna(name):
+        return name
+    name = str(name)
+    replacements = [
+        ("Ltd", "Limited"),
+        ("Limited", "Ltd"),
+        ("Ltd", "LTD"),
+        ("LTD", "ltd"),
+        ("LTD", "Ltd"),
+        ("ltd", "Ltd"),
+        ("&", "and"),
+        ("and", "&"),
+        ("Dairy", "Dairies")
+    ]
+    old, new = random.choice(replacements)
+    return name.replace(old, new)
+
+def phone_format_variation(phone):
+    if pd.isna(phone):
+        return phone
+    digits = "".join(filter(str.isdigit, str(phone)))
+    if len(digits) < 9:
+        return phone
+
+    last9 = digits[-9:]
+    formats = [
+        "0" + last9,
+        "254" + last9,
+        "+254" + last9,
+        last9,
+        f"0{last9[:3]} {last9[3:6]} {last9[6:]}"
+         f"0{last9[:3]}-{last9[3:6]}-{last9[6:]}"
+    ]
+    return random.choices(formats)
+
+# Email typos
+def email_typos(email):
+    if pd.isna(email):
+        return email
+
+    email = str(email)
+
+    mistakes = [
+        lambda x: x.replace("@", ""),
+        lambda x: x.replace("@", "@ "),
+        lambda x: x.replace(".com", ""),
+        lambda x: x.replace(".co.ke",""),
+        lambda x: x.replace(".",",",1),
+        lambda x: x.replace("info", "Info"),
+        lambda x: x + "."
+    ]
+    return random.choice(mistakes)(email)
+
+COUNTY_VARIATIONS = {
+
+    "Nairobi": [
+        "Nairobi County",
+        "NRB",
+        "Nrb"
+    ],
+
+    "Mombasa": [
+        "Mombasa County",
+        "MSA"
+    ],
+
+    "Kisumu": [
+        "Kisumu County",
+        "KSM"
+    ],
+
+    "Nakuru": [
+        "Nakuru County"
+    ],
+
+    "Uasin Gishu": [
+        "Eldoret",
+        "Uasin-Gishu"
+    ],
+
+    "Kiambu": [
+        "Kiambu County"
+    ]
+}
+
+def county_variation(county):
+    if pd.isna(county):
+        return county
+    county = str(county)
+    if county in COUNTY_VARIATIONS:
+        return random.choice(COUNTY_VARIATIONS[county])
+    return county
+
+def duplicate_phone(df):
+    duplicate_count = max(1, int(len(df) * 0.02))
+    rows = random.sample(list(df.index), duplicate_count)
+    for rows in rows:
+        source = random.choice(list(df.index))
+        df.at["row", "Phone"] = df.at[source, "Phone"]
+    return df
+
+
+
 # Supplier Helpers
 def inject_supplier_quality(df):
     df = df.copy()
@@ -29,22 +133,30 @@ def inject_supplier_quality(df):
         if chance(0.03):
             df.at[index, "SupplierName"] = add_spaces(df.at[index, "SupplierName"])
         if chance(0.02):
+            df.at[index, "SupplierName"] = supplier_name_variation(df.at[index, "SupplierName"])
+        if chance(0.01):
             df.at[index, "SupplierName"] = random_case(df.at[index, "SupplierName"])
 
+        # contact person
+        if chance(0.01):
+            df.at[index, "ContactPerson"] = add_spaces(df.at[index, "ContactPerson"])
+
         if chance(0.03):
+            df.at[index, "Email"] = email_typos(df.at[index, "Email"])
+        if chance(0.01):
             df.at[index, "Email"] = None
-        if chance(0.02):
+        if chance(0.03):
+            df.at[index, "Phone"] = phone_format_variation(df.at[index, "Phone"])
+        if chance(0.01):
             df.at[index, "Phone"] = None
         if chance(0.02):
-            df.at[index, "County"] = random_case(df.at[index, "County"])
+            df.at[index, "County"] = county_variation(df.at[index, "County"])
+        if chance(0.02):
+            df.at[index, "Town"] = add_spaces(df.at[index, "Town"])
+        if chance(0.02):
+            df.at[index, "Town"] = random_case(df.at[index, "Town"])
 
-    duplicate_count = int(len(df) * 0.02)
-
-    rows = random.sample(list(df.index), duplicate_count)
-
-    for row in rows:
-        source = random.choice(list(df.index))
-        df.at[row, "Phone"] = df.at[source, "Phone"]
+    df = duplicate_phone(df)
     return df
 
 # Product Helpers

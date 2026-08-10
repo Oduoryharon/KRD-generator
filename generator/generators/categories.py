@@ -54,17 +54,20 @@ def generate_categories():
         category_id = generate_id("CAT", index)
         category_name, category_type, tax_rate, is_perishable = category
         records.append({
-            "category_id": category_id,
-            "category_name": category_name,
-            "category_type": category_type,
-            "tax_rate": tax_rate,
-            "is_perishable": is_perishable,
-            "created_date": random_date(STARTDATE, "2020-01-01").date(),
-            "Last_updated_date": random_date("2025-12-31", ENDDATE).date(),
-            "is_active": True
+            "CategoryID": category_id,
+            "CategoryName": category_name,
+            "CategoryType": category_type,
+            "VATRate": tax_rate,
+            "IsPerishable": is_perishable,
+            "CreatedDate": random_date(STARTDATE, "2020-01-01").date(),
+            "LastUpdatedDate": random_date("2025-12-31", ENDDATE).date(),
+            "IsActive": True
         })
     df = pd.DataFrame(records)
     create_directory(f"{OUTPUT_DIR}/master")
     save_csv(df, f"{OUTPUT_DIR}/master/categories.csv")
     save_excel(df, f"{OUTPUT_DIR}/master/categories.xlsx")
     print(f"Generated {len(df)} categories and saved to {OUTPUT_DIR}/master/categories.csv and categories.xlsx")
+
+if __name__ == "__main__":
+    generate_categories()

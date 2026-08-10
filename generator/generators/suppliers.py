@@ -3,7 +3,7 @@ import pandas as pd
 from faker import Faker
 from generator.business_rules.data_quality import inject_supplier_quality
 
-from generator.config import OUTPUT_DIR, NUM_SUPPLIERS
+from generator.config import OUTPUT_DIR, NUM_SUPPLIERS, STARTDATE, ENDDATE
 
 from generator.utils import (
     create_directory,
@@ -12,7 +12,8 @@ from generator.utils import (
     generate_id,
     generate_kenyan_name,
     generate_kenyan_phone,
-    generate_supplier_email
+    generate_supplier_email,
+    random_date
 )
 
 faker = Faker()
@@ -122,17 +123,12 @@ def build_supplier_record(
                 "Advance Payment"
             ]),
 
+        "CreatedDate": random_date(STARTDATE, "2020-01-01").date(),
+        "LastUpdatedDate": random_date("2025-12-31", ENDDATE).date(),
+
         "LeadTimeDays":
             random.randint(2, 14),
 
-        "SupplierRating":
-            round(
-                random.uniform(
-                    3.5,
-                    5.0
-                ),
-                1
-            ),
 
         "IsActive":
             random.choices(

@@ -1,4 +1,4 @@
-category_id,category_name,category_type,tax_rate,is_perishable,created_date,Last_updated_date,is_active
+CategoryID,CategoryName,CategoryType,VATRate,IsPerishable,CreatedDate,LastUpdatedDate,IsActive
 CAT001,Grocery,Food,16,False,2020-01-01,2025-12-31,True
 CAT002,Dairy,Fresh Foods,0,True,2020-01-01,2025-12-31,True
 CAT003,Bakery,Fresh Foods,0,True,2020-01-01,2025-12-31,True

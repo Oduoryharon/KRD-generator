@@ -1,11 +1,9 @@
 import random
 import pandas as pd
 
-from generator.config import (
-    OUTPUT_DIR,
-    NUM_INVENTORY_RECORDS
-)
+from generator.config import OUTPUT_DIR
 
+from generator.business_rules.data_quality import inject_inventory_quality
 from generator.utils import (
     create_directory,
     save_csv,
@@ -14,11 +12,14 @@ from generator.utils import (
     random_date
 )
 
+from generator.business_rules.inventory import (
+    generate_stock_status,
+    generate_stock_quantity
+)
+
 random.seed(42)
 
-# =====================================================
-# LOAD MASTER DATA
-# =====================================================
+# Load the data
 
 products_df = pd.read_csv(
     f"{OUTPUT_DIR}/master/products.csv"
@@ -28,284 +29,231 @@ stores_df = pd.read_csv(
     f"{OUTPUT_DIR}/master/stores.csv"
 )
 
-# =====================================================
-# HELPER FUNCTIONS
-# =====================================================
+# Basic Validation
 
-def generate_batch_number(number):
-    """
-    Generate inventory batch number.
-    Example: BAT000001
-    """
-    return f"BAT{number:06d}"
+if products_df.empty:
 
-
-def generate_quantity(category):
-    """
-    Generate realistic quantity depending on category.
-    """
-
-    ranges = {
-
-        "Grocery": (150, 600),
-        "Dairy": (20, 120),
-        "Bakery": (15, 80),
-        "Fresh Produce": (20, 150),
-        "Meat & Poultry": (10, 80),
-        "Fish & Seafood": (10, 60),
-        "Frozen Foods": (20, 120),
-
-        "Beverages": (200, 1000),
-        "Juices": (120, 600),
-        "Water": (300, 1500),
-        "Tea & Coffee": (60, 300),
-
-        "Snacks": (80, 400),
-        "Confectionery": (100, 500),
-
-        "Cleaning Supplies": (40, 250),
-        "Laundry": (40, 250),
-        "Kitchenware": (10, 80),
-
-        "Personal Care": (40, 200),
-        "Baby Care": (20, 120),
-        "Health & Pharmacy": (20, 100),
-
-        "Stationery": (30, 200),
-        "Electronics": (2, 20),
-        "Pet Care": (10, 80)
-
-    }
-
-    minimum, maximum = ranges.get(category, (20, 100))
-
-    return random.randint(minimum, maximum)
-
-
-def calculate_safety_stock(reorder_level):
-    """
-    Safety stock is 50% of reorder level.
-    """
-    return max(5, int(reorder_level * 0.5))
-
-
-def determine_stock_status(quantity, reorder_level):
-
-    if quantity == 0:
-        return "Out of Stock"
-
-    elif quantity <= reorder_level:
-        return "Low Stock"
-
-    else:
-        return "In Stock"
-
-
-def calculate_inventory_value(quantity, unit_cost):
-
-    return round(quantity * unit_cost, 2)
-
-
-def generate_expiry_date(
-    manufacture_date,
-    shelf_life_days,
-    is_perishable
-):
-    """
-    Generate expiry date for perishable products only.
-    """
-
-    if not is_perishable:
-        return None
-
-    return manufacture_date + pd.Timedelta(
-        days=int(shelf_life_days)
+    raise ValueError(
+        "products.csv is empty."
     )
 
-# =====================================================
-# GENERATE INVENTORY
-# =====================================================
+
+if stores_df.empty:
+
+    raise ValueError(
+        "stores.csv is empty."
+    )
+
+
+# Required product column.
+
+required_product_columns = [
+    "ProductID",
+    "ReorderLevel"
+]
+
+for column in required_product_columns:
+
+    if column not in products_df.columns:
+
+        raise KeyError(
+            f"products.csv is missing required column: {column}"
+        )
+
+
+# Required store column.
+
+required_store_columns = [
+    "StoreID"
+]
+
+for column in required_store_columns:
+
+    if column not in stores_df.columns:
+
+        raise KeyError(
+            f"stores.csv is missing required column: {column}"
+        )
+
+
+print(
+    f"Loaded {len(products_df)} products."
+)
+
+print(
+    f"Loaded {len(stores_df)} stores."
+)
+
+
+# Generate inventory.
 
 def generate_inventory():
 
-    print("Loading master data...")
-
     records = []
 
-    used_pairs = set()
+    print(
+        "Generating inventory records..."
+    )
 
     inventory_number = 1
 
-    while len(records) < NUM_INVENTORY_RECORDS:
+    # Create inventory for products and store.
 
-        # ------------------------------------------
-        # Select Product
-        # ------------------------------------------
-
-        product = products_df.sample(1).iloc[0]
-
-        # ------------------------------------------
-        # Select Store
-        # ------------------------------------------
-
-        store = stores_df.sample(1).iloc[0]
+    for _, product in products_df.iterrows():
 
         product_id = product["ProductID"]
-        store_id = store["StoreID"]
 
-        # Prevent duplicate Product-Store combination
+        reorder_level = product["ReorderLevel"]
 
-        pair = (product_id, store_id)
+        for _, store in stores_df.iterrows():
 
-        if pair in used_pairs:
-            continue
+            store_id = store["StoreID"]
 
-        used_pairs.add(pair)
+            stock_status = generate_stock_status()
 
-        # ------------------------------------------
-        # Product Information
-        # ------------------------------------------
+            stock_quantity = generate_stock_quantity(
+                stock_status,
+                reorder_level
+            )
 
-        product_name = product["ProductName"]
+            inventory_date = random_date(
+                "2024-01-01",
+                "2025-12-31"
+            ).date()
 
-        category = product["CategoryName"]
+            last_restock_date = random_date(
+                "2023-01-01",
+                "2025-12-31"
+            ).date()
 
-        cost_price = float(product["CostPrice"])
+            # Inventory records
 
-        reorder_level = int(product["ReorderLevel"])
+            records.append({
 
-        shelf_life = int(product["ShelfLifeDays"])
+                "InventoryID": generate_id(
+                    "INV",
+                    inventory_number,
+                    digits=6
+                ),
 
-        is_perishable = bool(product["IsPerishable"])
+                "ProductID": product_id,
 
-        # ------------------------------------------
-        # Store Information
-        # ------------------------------------------
+                "StoreID": store_id,
 
-        store_name = store["StoreName"]
+                "StockQuantity": stock_quantity,
 
-        # ------------------------------------------
-        # Generated Values
-        # ------------------------------------------
+                "StockStatus": stock_status,
 
-        batch_number = generate_batch_number(
-            inventory_number
-        )
+                "InventoryDate": inventory_date,
 
-        quantity = generate_quantity(
-            category
-        )
+                "LastRestockDate": last_restock_date
 
-        safety_stock = calculate_safety_stock(
-            reorder_level
-        )
+            })
 
-        inventory_value = calculate_inventory_value(
-            quantity,
-            cost_price
-        )
+            inventory_number += 1
 
-        stock_status = determine_stock_status(
-            quantity,
-            reorder_level
-        )
+    # Create dataframe
 
-        manufacture_date = random_date(
-            "2024-01-01",
-            "2025-06-30"
-        )
+    inventory_df = pd.DataFrame(
+        records
+    )
 
-        expiry_date = generate_expiry_date(
-            manufacture_date,
-            shelf_life,
-            is_perishable
-        )
 
-        last_restock = random_date(
-            "2025-01-01",
-            "2025-12-31"
-        )
-
-        # ------------------------------------------
-        # Inventory Record
-        # ------------------------------------------
-
-        records.append({
-
-            "InventoryID": generate_id(
-                "INV",
-                inventory_number,
-                digits=6
-            ),
-
-            "ProductID": product_id,
-
-            "ProductName": product_name,
-
-            "StoreID": store_id,
-
-            "StoreName": store_name,
-
-            "BatchNumber": batch_number,
-
-            "QuantityOnHand": quantity,
-
-            "ReorderLevel": reorder_level,
-
-            "SafetyStock": safety_stock,
-
-            "UnitCost": cost_price,
-
-            "InventoryValue": inventory_value,
-
-            "ManufacturingDate": manufacture_date,
-
-            "ExpiryDate": expiry_date,
-
-            "LastRestockDate": last_restock,
-
-            "StockStatus": stock_status
-
-        })
-
-        inventory_number += 1
-
-            # =====================================================
-    # CREATE DATAFRAME
-    # =====================================================
-
-    inventory_df = pd.DataFrame(records)
-
-    # =====================================================
-    # VALIDATION
-    # =====================================================
+    # Basic Validation
 
     if inventory_df.empty:
-        raise ValueError("No inventory records generated.")
 
-    if inventory_df["InventoryID"].duplicated().any():
-        raise ValueError("Duplicate InventoryID detected.")
-
-    if inventory_df.duplicated(
-        subset=["ProductID", "StoreID"]
-    ).any():
         raise ValueError(
-            "Duplicate Product-Store combination found."
+            "No inventory records were generated."
         )
 
-    # =====================================================
-    # SORT DATA
-    # =====================================================
 
-    inventory_df = inventory_df.sort_values(
-        by=["StoreID", "ProductID"]
-    ).reset_index(drop=True)
+    # Iventory id validation.
 
-    # =====================================================
-    # SAVE FILES
-    # =====================================================
+    if inventory_df[
+        "InventoryID"
+    ].duplicated().any():
 
-    create_directory(f"{OUTPUT_DIR}/master")
+        raise ValueError(
+            "Duplicate InventoryID detected."
+        )
+
+
+    # Product ID validation.
+
+    valid_product_ids = set(
+        products_df["ProductID"]
+    )
+
+    invalid_product_ids = (
+        ~inventory_df["ProductID"].isin(
+            valid_product_ids
+        )
+    )
+
+    if invalid_product_ids.any():
+
+        raise ValueError(
+            "Inventory contains invalid ProductID values."
+        )
+
+
+    # Store validation id.
+
+    valid_store_ids = set(
+        stores_df["StoreID"]
+    )
+
+    invalid_store_ids = (
+        ~inventory_df["StoreID"].isin(
+            valid_store_ids
+        )
+    )
+
+    if invalid_store_ids.any():
+
+        raise ValueError(
+            "Inventory contains invalid StoreID values."
+        )
+
+
+    # Stock quantity validation.
+
+    if (
+        inventory_df["StockQuantity"] < 0
+    ).any():
+
+        raise ValueError(
+            "Inventory contains negative stock quantities."
+        )
+
+
+    # Stock status validation.
+
+    valid_statuses = {
+        "In Stock",
+        "Low Stock",
+        "Out of Stock"
+    }
+
+    invalid_statuses = (
+        ~inventory_df["StockStatus"].isin(
+            valid_statuses
+        )
+    )
+
+    if invalid_statuses.any():
+
+        raise ValueError(
+            "Inventory contains invalid stock status values."
+        )
+
+
+    # Save clean inventory.
+
+    create_directory(
+        f"{OUTPUT_DIR}/master"
+    )
 
     save_csv(
         inventory_df,
@@ -317,16 +265,73 @@ def generate_inventory():
         f"{OUTPUT_DIR}/master/inventory.xlsx"
     )
 
+    inventory_raw_df = inject_inventory_quality(
+                inventory_df.copy()
+            )
+
+    # save dirty inventory data.
+    create_directory(
+            f"{OUTPUT_DIR}/master"
+        )
+    
+    save_csv(
+            inventory_raw_df,
+            f"{OUTPUT_DIR}/raw/inventory_raw.csv"
+        )
+    
+    save_excel(
+            inventory_raw_df,
+            f"{OUTPUT_DIR}/raw/inventory_raw.xlsx"
+        )
+
+
+    # Summary
+
     print(
-        f"Generated {len(inventory_df)} inventory records successfully."
+        f"Generated "
+        f"{len(inventory_df)} inventory records."
     )
+
+    print(
+        f"Products represented: "
+        f"{inventory_df['ProductID'].nunique()}"
+    )
+
+    print(
+        f"Stores represented: "
+        f"{inventory_df['StoreID'].nunique()}"
+    )
+
+    print(
+        "Stock status distribution:"
+    )
+
+    print(
+        inventory_df[
+            "StockStatus"
+        ].value_counts()
+    )
+
+    # summary
+
+    print(
+        "Inventory saved successfully."
+    )
+
+    print(
+            "Clean inventory data saved successfully."
+        )
+    
+    print(
+            "Raw inventory data saved successfully."
+        )
+
 
     return inventory_df
 
 
-# =====================================================
-# MAIN
-# =====================================================
+# Summary
 
 if __name__ == "__main__":
+
     generate_inventory()

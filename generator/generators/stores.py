@@ -2,6 +2,9 @@ import random
 import pandas as pd
 
 from generator.config import OUTPUT_DIR, NUM_STORES
+
+from generator.business_rules.data_quality import inject_store_quality
+
 from generator.utils import (
     create_directory,
     save_csv,
@@ -12,9 +15,7 @@ from generator.utils import (
 
 random.seed(42)
 
-# =====================================================
-# LOAD REFERENCE DATA
-# =====================================================
+# Load reference data.
 
 counties_df = pd.read_csv(
     "generator/reference_data/counties.csv"
@@ -24,9 +25,7 @@ towns_df = pd.read_csv(
     "generator/reference_data/towns.csv"
 )
 
-# =====================================================
-# RETAIL CHAINS
-# =====================================================
+# Retail Chains
 
 RETAIL_CHAINS = [
     "Naivas",
@@ -39,9 +38,7 @@ RETAIL_CHAINS = [
     "Magunas"
 ]
 
-# =====================================================
-# STORE TYPES
-# =====================================================
+# Store type
 
 STORE_TYPES = {
     "Hypermarket": (8000, 10000),
@@ -55,9 +52,7 @@ STORE_TYPE_WEIGHTS = {
     "Express": 0.60
 }
 
-# =====================================================
-# GENERATE STORES
-# =====================================================
+# Generate stores
 
 def generate_stores():
 
@@ -71,9 +66,7 @@ def generate_stores():
 
         chain = random.choice(RETAIL_CHAINS)
 
-        # -----------------------------------------
-        # Pick unique location for this chain
-        # -----------------------------------------
+        # pick unique location for this chain
 
         while True:
 
@@ -90,18 +83,14 @@ def generate_stores():
 
                 break
 
-        # -----------------------------------------
-        # Region
-        # -----------------------------------------
+        # Region.
 
         region = counties_df.loc[
             counties_df["County"] == county,
             "Region"
         ].iloc[0]
 
-        # -----------------------------------------
-        # Store Type
-        # -----------------------------------------
+        # Store type
 
         store_type = random.choices(
 
@@ -120,9 +109,7 @@ def generate_stores():
             maximum_area
         )
 
-        # -----------------------------------------
-        # Store Record
-        # -----------------------------------------
+       # Store record
 
         records.append({
 
@@ -161,15 +148,11 @@ def generate_stores():
 
         store_number += 1
 
-    # =====================================================
-    # CREATE DATAFRAME
-    # =====================================================
+   # Create data frane
 
     stores_df = pd.DataFrame(records)
 
-    # =====================================================
-    # VALIDATION
-    # =====================================================
+    # Validation
 
     if stores_df.empty:
         raise ValueError("No stores were generated.")
@@ -177,9 +160,7 @@ def generate_stores():
     if stores_df["StoreID"].duplicated().any():
         raise ValueError("Duplicate StoreID detected.")
 
-    # =====================================================
-    # SAVE FILES
-    # =====================================================
+    # Save clean data
 
     create_directory(f"{OUTPUT_DIR}/master")
 
@@ -193,16 +174,44 @@ def generate_stores():
         f"{OUTPUT_DIR}/master/stores.xlsx"
     )
 
+    # Create raw data
+
+    stores_raw_df = inject_store_quality(
+            stores_df.copy()
+        )
+    
+    create_directory(
+            f"{OUTPUT_DIR}/raw"
+        )
+    
+    save_csv(
+            stores_raw_df,
+            f"{OUTPUT_DIR}/raw/stores_raw.csv"
+        )
+    
+    save_excel(
+            stores_raw_df,
+            f"{OUTPUT_DIR}/raw/stores_raw.xlsx"
+        )
+
+    # summary
+
     print(
         f"Generated {len(stores_df)} stores successfully."
     )
 
+    print(
+            "Clean product data saved successfully."
+        )
+    
+    print(
+            "Raw product data saved successfully."
+        )
+
     return stores_df
 
 
-# =====================================================
-# MAIN
-# =====================================================
+# main.
 
 if __name__ == "__main__":
     generate_stores()

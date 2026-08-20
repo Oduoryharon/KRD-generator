@@ -211,7 +211,7 @@ def generate_suppliers():
     # ---------------------------------------
 
     suppliers_df = pd.DataFrame(records)
-    suppliers_df = inject_supplier_quality(suppliers_df)
+    raw_df = inject_supplier_quality(suppliers_df)
 
     # ---------------------------------------
     # VALIDATION
@@ -238,7 +238,7 @@ def generate_suppliers():
     )
 
     save_csv(
-        suppliers_df,
+        raw_df,
         f"{OUTPUT_DIR}/raw/suppliers_raw.csv"
     )
 
@@ -248,11 +248,19 @@ def generate_suppliers():
     )
 
     save_excel(
-        suppliers_df,
+        raw_df,
         f"{OUTPUT_DIR}/raw/suppliers_raw.xlsx"
     )
 
     print(f"Generated {len(suppliers_df)} suppliers successfully.")
+
+    print(
+            "Clean supplier data saved successfully."
+        )
+    
+    print(
+            "Raw supplier data saved successfully."
+        )
 
     return suppliers_df
 

@@ -1,5 +1,4 @@
 import random
-from datetime import datetime, timedelta
 import pandas as pd
 from faker import Faker
 from generator.config import OUTPUT_DIR, NUM_CUSTOMERS
@@ -18,17 +17,9 @@ from generator.business_rules.customer_behavior import(
     generate_customer_age,
     generate_date_of_birth,
     generate_monthly_income,
-    generate_customer_segment,
-    generate_credit_limit,
-    generate_loyalty_tier,
     generate_marital_status,
     generate_registration_date,
-    generate_last_purchase_date,
-    generate_shopping_frequency,
-    generate_monthly_visits,
-    generate_customer_status,
-    generate_average_basket_value,
-    generate_preferred_shopping_day
+    generate_customer_status
 )
 from generator.business_rules.data_quality import inject_customer_quality
 
@@ -90,16 +81,10 @@ def generate_customers():
 
         # customer profile
         marital_status = generate_marital_status()
-        loyalty_tier = generate_loyalty_tier()
-        shopping_frequency = generate_shopping_frequency()
-        monthly_visits = generate_monthly_visits(shopping_frequency)
-        customer_segment = generate_customer_segment(monthly_income)
-        average_basket_value = generate_average_basket_value(customer_segment)
-        preferred_shopping_day = generate_preferred_shopping_day()
 
         # Dates
         registration_date = generate_registration_date()
-        last_purchase_date = generate_last_purchase_date(registration_date)
+        
 
         # preferred store
         preferred_store_id, preferred_store_name = choose_preferred_store()
@@ -124,14 +109,7 @@ def generate_customers():
             "Occupation": occupation,
             "MonthlyIncome": monthly_income,
             "MaritalStatus": marital_status,
-            "LoyaltyTier": loyalty_tier,
-            "ShoppingFrequency": shopping_frequency,
-            "MonthlyVisits": monthly_visits,
-            "CustomerSegment": customer_segment,
-            "AverageBasketValue": average_basket_value,
-            "PreferredShoppingDay": preferred_shopping_day,
             "RegistrationDate": registration_date,
-            "LastPurchaseDate": last_purchase_date,
             "PreferredStoreID": preferred_store_id,
             "PreferredStoreName": preferred_store_name,
             "Status": status
@@ -141,11 +119,10 @@ def generate_customers():
 
     customers_df = pd.DataFrame(records)
 
-   # ==========================================================
-# CREATE DATAFRAME
-# ==========================================================
+  # Create dataframe
 
     customers_df = pd.DataFrame(records)
+    customer_df = inject_customer_quality(customers_df)
 
     # ======================================================
     # AUDIT COLUMNS
@@ -183,9 +160,7 @@ def generate_customers():
             "Duplicate CustomerID detected."
         )
 
-    # ======================================================
-    # SAVE CLEAN DATA
-    # ======================================================
+    # Save Clean data
 
     create_directory(
         f"{OUTPUT_DIR}/master"
@@ -201,10 +176,7 @@ def generate_customers():
         f"{OUTPUT_DIR}/master/customers.xlsx"
     )
 
-    # ======================================================
-    # CREATE DIRTY DATASET
-    # ======================================================
-
+    # Create dirty dataset
     customers_raw_df = inject_customer_quality(
         customers_df.copy()
     )
@@ -226,6 +198,14 @@ def generate_customers():
     print(
         f"Generated {len(customers_df)} customers successfully."
     )
+
+    print(
+            "Clean customer data saved successfully."
+        )
+    
+    print(
+            "Raw customer data saved successfully."
+        )
 
     return customers_df
 

@@ -1,101 +1,101 @@
 StoreID,StoreName,RetailChain,StoreType,FloorAreaSQM,County,Region,Town,CreatedDate,LastUpdatedDate,IsActive
-STR001,Tuskys Naivasha Branch,Tuskys,Hypermarket,8563,Nakuru,Rift Valley,Naivasha,2016-05-16,2022-07-04,True
-STR002,Quickmart Kitale Branch,Quickmart,Express,1692,Trans Nzoia,Rift Valley,Kitale,2019-02-25,2020-12-23,True
-STR003,Eastmatt Kakamega Town Branch,Eastmatt,Hypermarket,8191,Kakamega,Western,Kakamega Town,2016-03-23,2022-08-11,True
-STR004,Naivas Maua Branch,Naivas,Express,1733,Meru,Eastern,Maua,2018-08-23,2024-09-15,True
-STR005,Carrefour Diani Branch,Carrefour,Express,1284,Kwale,Coast,Diani,2019-07-16,2020-01-28,True
-STR006,Quickmart Kikuyu Branch,Quickmart,Express,1348,Kiambu,Central,Kikuyu,2016-07-23,2021-09-29,True
-STR007,Carrefour Kisumu City Branch,Carrefour,Express,1344,Kisumu,Nyanza,Kisumu City,2015-07-29,2021-01-15,True
-STR008,Eastmatt Bungoma Town Branch,Eastmatt,Hypermarket,9735,Bungoma,Western,Bungoma Town,2016-12-05,2022-12-20,True
-STR009,Naivas Nakuru Town Branch,Naivas,Express,1549,Nakuru,Rift Valley,Nakuru Town,2015-09-13,2024-03-31,True
-STR010,Tuskys Meru Town Branch,Tuskys,Express,1849,Meru,Eastern,Meru Town,2018-07-11,2024-01-22,True
-STR011,Carrefour Nakuru Town Branch,Carrefour,Express,1046,Nakuru,Rift Valley,Nakuru Town,2018-09-16,2022-07-23,True
-STR012,Chandarana Kilifi Town Branch,Chandarana,Express,1875,Kilifi,Coast,Kilifi Town,2016-04-21,2021-02-18,True
-STR013,Eastmatt Murang'a Town Branch,Eastmatt,Supermarket,4301,Murang'a,Central,Murang'a Town,2019-09-05,2024-02-04,True
-STR014,Quickmart Nakuru Town Branch,Quickmart,Supermarket,3429,Nakuru,Rift Valley,Nakuru Town,2018-10-04,2022-12-30,True
-STR015,Tuskys Kasarani Branch,Tuskys,Express,1175,Nairobi,Nairobi,Kasarani,2017-12-29,2022-09-30,True
-STR016,Quickmart Makutano Branch,Quickmart,Express,1276,Meru,Eastern,Makutano,2018-08-03,2022-06-19,True
-STR017,Cleanshelf Gilgil Branch,Cleanshelf,Express,1794,Nakuru,Rift Valley,Gilgil,2015-04-25,2022-07-28,True
-STR018,Naivas Nanyuki Branch,Naivas,Express,1410,Laikipia,Rift Valley,Nanyuki,2016-07-02,2020-09-29,True
-STR019,Carrefour Eldoret Branch,Carrefour,Express,1580,Uasin Gishu,Rift Valley,Eldoret,2019-11-30,2023-07-13,True
-STR020,Carrefour Meru Town Branch,Carrefour,Express,1405,Meru,Eastern,Meru Town,2019-12-17,2025-02-23,True
-STR021,Quickmart Athi River Branch,Quickmart,Supermarket,3505,Machakos,Eastern,Athi River,2019-03-06,2022-12-13,True
-STR022,Eastmatt Athi River Branch,Eastmatt,Express,1408,Machakos,Eastern,Athi River,2017-01-11,2022-06-18,True
-STR023,Quickmart Eastleigh Branch,Quickmart,Express,1093,Nairobi,Nairobi,Eastleigh,2019-03-28,2020-07-12,True
-STR024,Tuskys Kilifi Town Branch,Tuskys,Supermarket,3327,Kilifi,Coast,Kilifi Town,2019-06-11,2024-09-26,True
-STR025,Tuskys Murang'a Town Branch,Tuskys,Supermarket,4220,Murang'a,Central,Murang'a Town,2017-08-16,2025-12-08,True
-STR026,Chandarana Mlolongo Branch,Chandarana,Express,1881,Machakos,Eastern,Mlolongo,2015-01-24,2021-04-15,True
-STR027,Chandarana Kasarani Branch,Chandarana,Express,1348,Nairobi,Nairobi,Kasarani,2015-08-17,2023-04-18,True
-STR028,Eastmatt Kitengela Branch,Eastmatt,Supermarket,3006,Kajiado,Rift Valley,Kitengela,2019-01-18,2022-12-15,True
-STR029,Quickmart Naivasha Branch,Quickmart,Express,1108,Nakuru,Rift Valley,Naivasha,2019-11-18,2023-05-08,True
-STR030,Carrefour Kilimani Branch,Carrefour,Supermarket,4561,Nairobi,Nairobi,Kilimani,2015-11-27,2025-12-13,True
-STR031,Naivas Machakos Town Branch,Naivas,Express,1500,Machakos,Eastern,Machakos Town,2015-02-09,2021-04-04,True
-STR032,Cleanshelf Nanyuki Branch,Cleanshelf,Express,1851,Laikipia,Rift Valley,Nanyuki,2019-07-11,2023-06-14,True
-STR033,Carrefour Embu Town Branch,Carrefour,Hypermarket,9798,Embu,Eastern,Embu Town,2018-03-07,2020-11-19,True
-STR034,Tuskys Ruaka Branch,Tuskys,Express,1835,Nairobi,Nairobi,Ruaka,2015-05-22,2025-12-22,True
-STR035,Quickmart Gilgil Branch,Quickmart,Supermarket,3973,Nakuru,Rift Valley,Gilgil,2018-01-30,2021-11-08,True
-STR036,Chandarana Ruaka Branch,Chandarana,Express,1621,Nairobi,Nairobi,Ruaka,2017-05-16,2022-05-18,True
-STR037,Carrefour Kikuyu Branch,Carrefour,Express,1408,Kiambu,Central,Kikuyu,2018-10-07,2024-03-10,True
-STR038,Magunas Kiambu Town Branch,Magunas,Express,1462,Kiambu,Central,Kiambu Town,2015-09-05,2022-10-13,True
-STR039,Carrefour Ruiru Branch,Carrefour,Hypermarket,8043,Kiambu,Central,Ruiru,2018-04-19,2022-08-01,True
-STR040,Carrefour Athi River Branch,Carrefour,Hypermarket,9449,Machakos,Eastern,Athi River,2018-07-16,2020-08-30,True
-STR041,Carrefour Nairobi CBD Branch,Carrefour,Hypermarket,8064,Nairobi,Nairobi,Nairobi CBD,2019-10-27,2023-09-16,True
-STR042,Tuskys Eldoret Branch,Tuskys,Express,1285,Uasin Gishu,Rift Valley,Eldoret,2018-10-02,2025-06-12,True
-STR043,Carrefour Thika Branch,Carrefour,Express,1740,Kiambu,Central,Thika,2019-12-13,2025-04-21,True
-STR044,Carrefour Maua Branch,Carrefour,Express,1826,Meru,Eastern,Maua,2017-04-13,2022-02-19,True
-STR045,Tuskys Machakos Town Branch,Tuskys,Hypermarket,8882,Machakos,Eastern,Machakos Town,2016-12-26,2024-10-01,True
-STR046,Eastmatt Kitale Branch,Eastmatt,Express,1746,Trans Nzoia,Rift Valley,Kitale,2015-04-21,2021-02-08,True
-STR047,Naivas Kilimani Branch,Naivas,Express,1347,Nairobi,Nairobi,Kilimani,2019-06-28,2021-03-24,True
-STR048,Carrefour Bungoma Town Branch,Carrefour,Supermarket,4098,Bungoma,Western,Bungoma Town,2017-07-07,2021-07-29,True
-STR049,Eastmatt Eldoret Branch,Eastmatt,Supermarket,3947,Uasin Gishu,Rift Valley,Eldoret,2016-05-26,2020-11-05,True
-STR050,Magunas Ruaka Branch,Magunas,Express,1876,Nairobi,Nairobi,Ruaka,2018-02-01,2021-02-06,True
-STR051,Naivas Nairobi CBD Branch,Naivas,Express,1553,Nairobi,Nairobi,Nairobi CBD,2019-09-09,2020-03-02,True
-STR052,Tuskys Ruiru Branch,Tuskys,Express,1869,Kiambu,Central,Ruiru,2016-04-29,2021-11-13,True
-STR053,Eastmatt Nyali Branch,Eastmatt,Express,1218,Mombasa,Coast,Nyali,2019-11-06,2024-07-01,True
-STR054,Naivas Thika Branch,Naivas,Supermarket,3004,Kiambu,Central,Thika,2017-03-10,2022-12-23,True
-STR055,Magunas Eldoret Branch,Magunas,Supermarket,4426,Uasin Gishu,Rift Valley,Eldoret,2019-02-05,2025-06-17,True
-STR056,Quickmart Machakos Town Branch,Quickmart,Supermarket,3445,Machakos,Eastern,Machakos Town,2015-04-30,2020-09-07,True
-STR057,Cleanshelf Ngong Branch,Cleanshelf,Hypermarket,9196,Kajiado,Rift Valley,Ngong,2017-09-03,2025-08-22,True
-STR058,Quickmart Meru Town Branch,Quickmart,Hypermarket,9040,Meru,Eastern,Meru Town,2015-06-14,2022-02-01,True
-STR059,Tuskys Bungoma Town Branch,Tuskys,Express,1691,Bungoma,Western,Bungoma Town,2019-11-01,2022-08-22,True
-STR060,Eastmatt Ruaka Branch,Eastmatt,Supermarket,4823,Nairobi,Nairobi,Ruaka,2018-03-12,2022-10-06,True
-STR061,Naivas Ruaka Branch,Naivas,Express,1429,Nairobi,Nairobi,Ruaka,2018-09-08,2025-11-12,True
-STR062,Cleanshelf Nyali Branch,Cleanshelf,Express,1209,Mombasa,Coast,Nyali,2018-10-03,2023-07-11,True
-STR063,Carrefour Makutano Branch,Carrefour,Supermarket,3268,Meru,Eastern,Makutano,2018-10-07,2023-05-14,True
-STR064,Magunas Maua Branch,Magunas,Supermarket,4539,Meru,Eastern,Maua,2015-05-29,2020-02-09,True
-STR065,Magunas Kitale Branch,Magunas,Express,1576,Trans Nzoia,Rift Valley,Kitale,2015-07-24,2020-10-28,True
-STR066,Carrefour Karen Branch,Carrefour,Express,1135,Nairobi,Nairobi,Karen,2016-12-15,2020-10-09,True
-STR067,Carrefour Nanyuki Branch,Carrefour,Supermarket,3323,Laikipia,Rift Valley,Nanyuki,2017-06-16,2023-05-25,True
-STR068,Naivas Kakamega Town Branch,Naivas,Express,1567,Kakamega,Western,Kakamega Town,2016-09-05,2021-03-01,True
-STR069,Quickmart Nanyuki Branch,Quickmart,Supermarket,4822,Laikipia,Rift Valley,Nanyuki,2015-08-08,2021-09-29,True
-STR070,Chandarana Ngong Branch,Chandarana,Supermarket,3431,Kajiado,Rift Valley,Ngong,2019-01-09,2023-11-06,True
-STR071,Carrefour Kerugoya Branch,Carrefour,Express,1873,Kirinyaga,Central,Kerugoya,2016-06-24,2025-09-02,True
-STR072,Magunas Kilifi Town Branch,Magunas,Supermarket,4859,Kilifi,Coast,Kilifi Town,2019-09-29,2020-07-28,True
-STR073,Tuskys Mombasa CBD Branch,Tuskys,Express,1849,Mombasa,Coast,Mombasa CBD,2016-07-20,2020-06-30,True
-STR074,Naivas Diani Branch,Naivas,Supermarket,3267,Kwale,Coast,Diani,2018-07-28,2022-12-09,True
-STR075,Quickmart Kiambu Town Branch,Quickmart,Express,1564,Kiambu,Central,Kiambu Town,2018-12-16,2024-10-18,True
-STR076,Naivas Murang'a Town Branch,Naivas,Supermarket,4935,Murang'a,Central,Murang'a Town,2019-12-14,2021-09-03,True
-STR077,Naivas Gilgil Branch,Naivas,Express,1596,Nakuru,Rift Valley,Gilgil,2018-02-05,2021-08-30,True
-STR078,Eastmatt Karen Branch,Eastmatt,Supermarket,3631,Nairobi,Nairobi,Karen,2017-01-16,2020-06-13,True
-STR079,Cleanshelf Eastleigh Branch,Cleanshelf,Supermarket,3511,Nairobi,Nairobi,Eastleigh,2018-09-27,2021-02-26,True
-STR080,Cleanshelf Thika Branch,Cleanshelf,Express,1905,Kiambu,Central,Thika,2019-11-27,2024-07-23,True
-STR081,Quickmart Nyeri Town Branch,Quickmart,Express,1242,Nyeri,Central,Nyeri Town,2019-11-06,2021-10-28,True
-STR082,Quickmart Eldoret Branch,Quickmart,Express,1025,Uasin Gishu,Rift Valley,Eldoret,2016-01-03,2023-09-23,True
-STR083,Eastmatt Diani Branch,Eastmatt,Express,1884,Kwale,Coast,Diani,2019-02-14,2022-10-14,True
-STR084,Chandarana Makutano Branch,Chandarana,Supermarket,4436,Meru,Eastern,Makutano,2015-08-10,2024-04-16,True
-STR085,Naivas Kitale Branch,Naivas,Express,1227,Trans Nzoia,Rift Valley,Kitale,2016-02-13,2025-03-01,True
-STR086,Cleanshelf Kitengela Branch,Cleanshelf,Supermarket,4628,Kajiado,Rift Valley,Kitengela,2019-11-20,2022-07-22,True
-STR087,Carrefour Machakos Town Branch,Carrefour,Hypermarket,8395,Machakos,Eastern,Machakos Town,2017-03-27,2023-09-07,True
-STR088,Chandarana Karen Branch,Chandarana,Express,1990,Nairobi,Nairobi,Karen,2019-05-03,2023-02-18,True
-STR089,Cleanshelf Meru Town Branch,Cleanshelf,Express,1409,Meru,Eastern,Meru Town,2018-10-23,2023-09-19,True
-STR090,Naivas Athi River Branch,Naivas,Supermarket,4987,Machakos,Eastern,Athi River,2016-06-18,2022-01-02,True
-STR091,Chandarana Eastleigh Branch,Chandarana,Hypermarket,9221,Nairobi,Nairobi,Eastleigh,2017-06-08,2023-11-17,True
-STR092,Cleanshelf Mlolongo Branch,Cleanshelf,Express,1523,Machakos,Eastern,Mlolongo,2015-08-25,2024-04-27,True
-STR093,Carrefour Naivasha Branch,Carrefour,Supermarket,4451,Nakuru,Rift Valley,Naivasha,2017-06-12,2020-01-08,True
-STR094,Carrefour Eastleigh Branch,Carrefour,Supermarket,3143,Nairobi,Nairobi,Eastleigh,2018-09-22,2023-09-15,True
-STR095,Cleanshelf Makutano Branch,Cleanshelf,Express,1127,Meru,Eastern,Makutano,2019-01-14,2023-05-16,True
-STR096,Chandarana Embu Town Branch,Chandarana,Express,1334,Embu,Eastern,Embu Town,2017-04-04,2023-04-27,True
-STR097,Quickmart Kitengela Branch,Quickmart,Supermarket,4361,Kajiado,Rift Valley,Kitengela,2017-02-15,2021-12-14,True
-STR098,Chandarana Kitale Branch,Chandarana,Express,1853,Trans Nzoia,Rift Valley,Kitale,2015-01-01,2023-05-30,True
-STR099,Chandarana Kerugoya Branch,Chandarana,Supermarket,4609,Kirinyaga,Central,Kerugoya,2018-04-02,2023-08-13,True
-STR100,Magunas Kerugoya Branch,Magunas,Express,1691,Kirinyaga,Central,Kerugoya,2016-03-13,2025-09-25,True
+STR001,Tuskys Nyeri Town Branch,Tuskys,Express,1012,Nyeri,Central,Nyeri Town,2017-01-09,2023-07-21,True
+STR002,Quickmart Embu Town Branch,Quickmart,Supermarket,4718,Embu,Eastern,Embu Town,2018-03-10,2024-09-20,True
+STR003,Cleanshelf Makutano Branch,Cleanshelf,Express,1176,Meru,Eastern,Makutano,2019-04-12,2025-04-14,True
+STR004,Tuskys Gilgil Branch,Tuskys,Hypermarket,8138,Nakuru,Rift Valley,Gilgil,2015-01-29,2022-12-10,True
+STR005,Carrefour Maua Branch,Carrefour,Hypermarket,8123,Meru,Eastern,Maua,2019-06-05,2024-06-19,True
+STR006,Chandarana Ruaka Branch,Chandarana,Express,1513,Nairobi,Nairobi,Ruaka,2019-04-21,2024-08-29,True
+STR007,Eastmatt Ruiru Branch,Eastmatt,Express,1084,Kiambu,Central,Ruiru,2018-08-04,2021-09-18,True
+STR008,Chandarana Athi River Branch,Chandarana,Hypermarket,8161,Machakos,Eastern,Athi River,2017-11-13,2022-04-13,True
+STR009,Quickmart Ruiru Branch,Quickmart,Express,1400,Kiambu,Central,Ruiru,2018-04-16,2020-09-28,True
+STR010,Chandarana Embu Town Branch,Chandarana,Express,1747,Embu,Eastern,Embu Town,2019-09-30,2022-09-05,True
+STR011,Naivas Nanyuki Branch,Naivas,Supermarket,4893,Laikipia,Rift Valley,Nanyuki,2017-06-08,2021-04-21,True
+STR012,Magunas Kakamega Town Branch,Magunas,Express,1056,Kakamega,Western,Kakamega Town,2016-09-25,2021-12-21,True
+STR013,Tuskys Mombasa CBD Branch,Tuskys,Hypermarket,8281,Mombasa,Coast,Mombasa CBD,2018-12-07,2020-02-17,True
+STR014,Quickmart Kakamega Town Branch,Quickmart,Express,1355,Kakamega,Western,Kakamega Town,2017-12-07,2025-10-20,True
+STR015,Chandarana Nyali Branch,Chandarana,Supermarket,3259,Mombasa,Coast,Nyali,2019-03-16,2023-01-06,True
+STR016,Tuskys Kakamega Town Branch,Tuskys,Express,1030,Kakamega,Western,Kakamega Town,2016-11-17,2024-10-25,True
+STR017,Chandarana Gilgil Branch,Chandarana,Express,1269,Nakuru,Rift Valley,Gilgil,2018-12-29,2020-11-12,True
+STR018,Magunas Nanyuki Branch,Magunas,Express,1368,Laikipia,Rift Valley,Nanyuki,2015-04-24,2025-08-09,True
+STR019,Quickmart Nyeri Town Branch,Quickmart,Supermarket,3522,Nyeri,Central,Nyeri Town,2019-05-03,2021-02-26,True
+STR020,Tuskys Bungoma Town Branch,Tuskys,Supermarket,4042,Bungoma,Western,Bungoma Town,2015-01-06,2020-06-30,True
+STR021,Naivas Murang'a Town Branch,Naivas,Supermarket,3966,Murang'a,Central,Murang'a Town,2017-01-15,2024-04-18,True
+STR022,Quickmart Kilimani Branch,Quickmart,Supermarket,4966,Nairobi,Nairobi,Kilimani,2019-10-23,2020-05-25,True
+STR023,Eastmatt Westlands Branch,Eastmatt,Supermarket,3508,Nairobi,Nairobi,Westlands,2017-05-02,2023-08-04,True
+STR024,Chandarana Meru Town Branch,Chandarana,Express,1585,Meru,Eastern,Meru Town,2017-02-02,2021-05-05,True
+STR025,Naivas Kakamega Town Branch,Naivas,Supermarket,4647,Kakamega,Western,Kakamega Town,2017-11-22,2020-07-08,True
+STR026,Eastmatt Kitale Branch,Eastmatt,Hypermarket,8952,Trans Nzoia,Rift Valley,Kitale,2019-11-09,2023-03-03,True
+STR027,Chandarana Kerugoya Branch,Chandarana,Supermarket,4132,Kirinyaga,Central,Kerugoya,2017-07-24,2020-02-03,True
+STR028,Cleanshelf Westlands Branch,Cleanshelf,Supermarket,4154,Nairobi,Nairobi,Westlands,2019-05-26,2023-05-30,True
+STR029,Carrefour Nanyuki Branch,Carrefour,Express,1605,Laikipia,Rift Valley,Nanyuki,2017-10-07,2022-03-12,True
+STR030,Carrefour Kakamega Town Branch,Carrefour,Supermarket,4909,Kakamega,Western,Kakamega Town,2017-04-19,2020-04-08,True
+STR031,Carrefour Murang'a Town Branch,Carrefour,Express,1651,Murang'a,Central,Murang'a Town,2019-09-16,2020-02-10,True
+STR032,Cleanshelf Thika Branch,Cleanshelf,Hypermarket,9346,Kiambu,Central,Thika,2017-02-09,2023-06-14,True
+STR033,Tuskys Kiambu Town Branch,Tuskys,Supermarket,3487,Kiambu,Central,Kiambu Town,2017-05-09,2025-07-09,True
+STR034,Naivas Gilgil Branch,Naivas,Express,1145,Nakuru,Rift Valley,Gilgil,2018-12-28,2023-02-21,True
+STR035,Tuskys Kilifi Town Branch,Tuskys,Hypermarket,8474,Kilifi,Coast,Kilifi Town,2019-09-28,2025-10-30,True
+STR036,Eastmatt Kakamega Town Branch,Eastmatt,Express,1381,Kakamega,Western,Kakamega Town,2017-07-27,2020-12-14,True
+STR037,Tuskys Kitale Branch,Tuskys,Express,1652,Trans Nzoia,Rift Valley,Kitale,2019-08-07,2024-06-04,True
+STR038,Tuskys Naivasha Branch,Tuskys,Express,1063,Nakuru,Rift Valley,Naivasha,2017-06-09,2021-06-20,True
+STR039,Carrefour Kikuyu Branch,Carrefour,Supermarket,4742,Kiambu,Central,Kikuyu,2016-10-07,2024-05-29,True
+STR040,Cleanshelf Nyali Branch,Cleanshelf,Supermarket,3556,Mombasa,Coast,Nyali,2016-04-23,2020-11-02,True
+STR041,Carrefour Machakos Town Branch,Carrefour,Supermarket,4577,Machakos,Eastern,Machakos Town,2018-04-12,2021-03-23,True
+STR042,Quickmart Maua Branch,Quickmart,Supermarket,3920,Meru,Eastern,Maua,2017-08-12,2023-07-11,True
+STR043,Eastmatt Ngong Branch,Eastmatt,Supermarket,3733,Kajiado,Rift Valley,Ngong,2019-04-27,2022-05-01,True
+STR044,Magunas Gilgil Branch,Magunas,Supermarket,3542,Nakuru,Rift Valley,Gilgil,2019-10-12,2021-05-07,True
+STR045,Tuskys Kikuyu Branch,Tuskys,Supermarket,4405,Kiambu,Central,Kikuyu,2016-09-15,2020-06-15,True
+STR046,Carrefour Mlolongo Branch,Carrefour,Express,1335,Machakos,Eastern,Mlolongo,2015-10-31,2021-01-09,True
+STR047,Carrefour Embu Town Branch,Carrefour,Express,1405,Embu,Eastern,Embu Town,2017-11-17,2020-07-20,True
+STR048,Chandarana Kakamega Town Branch,Chandarana,Supermarket,3356,Kakamega,Western,Kakamega Town,2015-03-05,2024-07-15,True
+STR049,Magunas Nairobi CBD Branch,Magunas,Express,1563,Nairobi,Nairobi,Nairobi CBD,2016-05-26,2021-01-23,True
+STR050,Magunas Maua Branch,Magunas,Supermarket,4625,Meru,Eastern,Maua,2015-10-14,2021-05-13,True
+STR051,Naivas Eldoret Branch,Naivas,Hypermarket,9599,Uasin Gishu,Rift Valley,Eldoret,2016-03-31,2021-06-20,True
+STR052,Carrefour Eastleigh Branch,Carrefour,Express,1381,Nairobi,Nairobi,Eastleigh,2018-11-06,2020-12-11,True
+STR053,Chandarana Ruiru Branch,Chandarana,Express,1076,Kiambu,Central,Ruiru,2015-02-14,2020-09-22,True
+STR054,Carrefour Kilimani Branch,Carrefour,Express,1454,Nairobi,Nairobi,Kilimani,2019-07-16,2021-06-12,True
+STR055,Tuskys Diani Branch,Tuskys,Express,1849,Kwale,Coast,Diani,2019-07-15,2023-09-21,True
+STR056,Tuskys Nairobi CBD Branch,Tuskys,Hypermarket,8944,Nairobi,Nairobi,Nairobi CBD,2015-04-14,2021-11-20,True
+STR057,Eastmatt Nairobi CBD Branch,Eastmatt,Express,1404,Nairobi,Nairobi,Nairobi CBD,2017-10-13,2020-05-01,True
+STR058,Eastmatt Kilimani Branch,Eastmatt,Express,1176,Nairobi,Nairobi,Kilimani,2016-12-25,2022-05-30,True
+STR059,Quickmart Machakos Town Branch,Quickmart,Supermarket,3913,Machakos,Eastern,Machakos Town,2019-12-15,2021-09-01,True
+STR060,Naivas Diani Branch,Naivas,Express,1631,Kwale,Coast,Diani,2016-05-18,2023-04-24,True
+STR061,Magunas Kikuyu Branch,Magunas,Express,1563,Kiambu,Central,Kikuyu,2017-09-08,2020-09-07,True
+STR062,Tuskys Maua Branch,Tuskys,Supermarket,3281,Meru,Eastern,Maua,2017-05-08,2022-03-28,True
+STR063,Carrefour Meru Town Branch,Carrefour,Express,1821,Meru,Eastern,Meru Town,2018-01-18,2020-03-21,True
+STR064,Eastmatt Athi River Branch,Eastmatt,Express,1367,Machakos,Eastern,Athi River,2017-09-09,2025-06-09,True
+STR065,Cleanshelf Ngong Branch,Cleanshelf,Express,1514,Kajiado,Rift Valley,Ngong,2016-10-20,2024-05-10,True
+STR066,Chandarana Nanyuki Branch,Chandarana,Supermarket,3653,Laikipia,Rift Valley,Nanyuki,2018-05-07,2022-06-17,True
+STR067,Naivas Athi River Branch,Naivas,Express,1797,Machakos,Eastern,Athi River,2016-07-29,2020-08-28,True
+STR068,Magunas Kitale Branch,Magunas,Express,1785,Trans Nzoia,Rift Valley,Kitale,2018-04-11,2022-08-12,True
+STR069,Quickmart Mlolongo Branch,Quickmart,Supermarket,4345,Machakos,Eastern,Mlolongo,2016-05-08,2022-12-28,True
+STR070,Naivas Mombasa CBD Branch,Naivas,Express,1970,Mombasa,Coast,Mombasa CBD,2016-03-25,2024-05-10,True
+STR071,Cleanshelf Ruaka Branch,Cleanshelf,Express,1865,Nairobi,Nairobi,Ruaka,2015-12-22,2021-12-23,True
+STR072,Carrefour Ruaka Branch,Carrefour,Express,1825,Nairobi,Nairobi,Ruaka,2019-02-20,2024-01-10,True
+STR073,Naivas Bungoma Town Branch,Naivas,Express,1360,Bungoma,Western,Bungoma Town,2018-03-08,2021-08-06,True
+STR074,Carrefour Thika Branch,Carrefour,Express,1829,Kiambu,Central,Thika,2019-12-11,2025-07-10,True
+STR075,Chandarana Nakuru Town Branch,Chandarana,Supermarket,3077,Nakuru,Rift Valley,Nakuru Town,2015-07-04,2020-08-19,True
+STR076,Carrefour Makutano Branch,Carrefour,Express,1020,Meru,Eastern,Makutano,2017-12-14,2025-05-12,True
+STR077,Naivas Meru Town Branch,Naivas,Supermarket,4257,Meru,Eastern,Meru Town,2016-02-17,2021-06-19,True
+STR078,Cleanshelf Nairobi CBD Branch,Cleanshelf,Express,1940,Nairobi,Nairobi,Nairobi CBD,2019-07-02,2023-08-19,True
+STR079,Naivas Kitengela Branch,Naivas,Hypermarket,9201,Kajiado,Rift Valley,Kitengela,2018-12-14,2021-08-04,True
+STR080,Tuskys Thika Branch,Tuskys,Express,1881,Kiambu,Central,Thika,2017-01-17,2020-10-25,True
+STR081,Cleanshelf Kikuyu Branch,Cleanshelf,Express,1678,Kiambu,Central,Kikuyu,2017-03-21,2021-02-18,True
+STR082,Cleanshelf Ruiru Branch,Cleanshelf,Supermarket,3279,Kiambu,Central,Ruiru,2015-11-19,2024-11-25,True
+STR083,Magunas Machakos Town Branch,Magunas,Express,1178,Machakos,Eastern,Machakos Town,2018-12-19,2024-01-02,True
+STR084,Carrefour Karen Branch,Carrefour,Express,1834,Nairobi,Nairobi,Karen,2015-12-26,2024-03-30,True
+STR085,Chandarana Eldoret Branch,Chandarana,Express,1301,Uasin Gishu,Rift Valley,Eldoret,2015-09-18,2021-12-29,True
+STR086,Naivas Machakos Town Branch,Naivas,Express,1971,Machakos,Eastern,Machakos Town,2018-03-19,2024-05-23,True
+STR087,Naivas Kitale Branch,Naivas,Supermarket,3651,Trans Nzoia,Rift Valley,Kitale,2019-07-15,2022-06-24,True
+STR088,Tuskys Westlands Branch,Tuskys,Express,1144,Nairobi,Nairobi,Westlands,2016-11-09,2020-11-15,True
+STR089,Carrefour Kitale Branch,Carrefour,Supermarket,3654,Trans Nzoia,Rift Valley,Kitale,2015-12-10,2020-12-30,True
+STR090,Cleanshelf Karen Branch,Cleanshelf,Express,1271,Nairobi,Nairobi,Karen,2016-03-05,2022-10-20,True
+STR091,Tuskys Machakos Town Branch,Tuskys,Supermarket,4611,Machakos,Eastern,Machakos Town,2015-08-10,2020-01-07,True
+STR092,Naivas Westlands Branch,Naivas,Supermarket,4500,Nairobi,Nairobi,Westlands,2017-05-09,2021-11-13,True
+STR093,Eastmatt Murang'a Town Branch,Eastmatt,Express,1387,Murang'a,Central,Murang'a Town,2016-12-20,2024-03-18,True
+STR094,Tuskys Kerugoya Branch,Tuskys,Express,1807,Kirinyaga,Central,Kerugoya,2019-11-05,2022-07-13,True
+STR095,Quickmart Eastleigh Branch,Quickmart,Express,1818,Nairobi,Nairobi,Eastleigh,2019-09-29,2020-05-17,True
+STR096,Chandarana Kikuyu Branch,Chandarana,Hypermarket,8534,Kiambu,Central,Kikuyu,2015-08-03,2020-10-31,True
+STR097,Cleanshelf Gilgil Branch,Cleanshelf,Supermarket,3768,Nakuru,Rift Valley,Gilgil,2015-11-26,2020-11-04,True
+STR098,Tuskys Eldoret Branch,Tuskys,Supermarket,4256,Uasin Gishu,Rift Valley,Eldoret,2017-09-15,2020-05-07,True
+STR099,Eastmatt Karen Branch,Eastmatt,Express,1168,Nairobi,Nairobi,Karen,2018-05-28,2024-11-14,True
+STR100,Quickmart Mombasa CBD Branch,Quickmart,Hypermarket,8678,Mombasa,Coast,Mombasa CBD,2016-02-25,2022-02-18,True

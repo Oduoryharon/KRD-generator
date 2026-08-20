@@ -4,6 +4,8 @@ import pandas as pd
 from generator.config import (
     OUTPUT_DIR
 )
+
+from generator.business_rules.data_quality import inject_sales_details_quality
 from generator.utils import (
     create_directory,
     save_csv,
@@ -317,6 +319,21 @@ def generate_sales_details():
         sales_details_df,
         f"{OUTPUT_DIR}/transaction/sales_details.xlsx"
     )
+    # create and save dirty sales details.
+    sales_raw_details_df = inject_sales_details_quality(sales_details_df.copy())
+    create_directory(
+            f"{OUTPUT_DIR}/raw"
+        )
+    
+    save_csv(
+            sales_raw_details_df,
+            f"{OUTPUT_DIR}/raw/sales_details_raw.csv"
+        )
+    
+    save_excel(
+            sales_raw_details_df,
+            f"{OUTPUT_DIR}/raw/sales_details_raw.xlsx"
+        )
 
 
     # summary
@@ -339,6 +356,19 @@ def generate_sales_details():
     print(
         "Sales details saved successfully."
     )
+
+    print(
+            "Sales_details saved successfully."
+        )
+    
+    print(
+                "Clean sales_details data saved successfully."
+            )
+        
+    print(
+                "Raw sales_details data saved successfully."
+            )
+    
     return sales_details_df
 
 if __name__ == "__main__":

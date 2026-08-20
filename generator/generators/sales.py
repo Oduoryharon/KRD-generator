@@ -7,6 +7,8 @@ from generator.config import (
     STARTDATE,
     ENDDATE
 )
+
+from generator.business_rules.data_quality import inject_sales_quality
 from generator.utils import (
     create_directory,
     save_csv,
@@ -291,6 +293,27 @@ def generate_sales():
     print(f"Saved clean sales data to "
         f"{OUTPUT_DIR}/transaction/sales.csv"
     )
+
+    # create and store raw data.
+    sales_raw_df = inject_sales_quality(sales_df.copy())
+
+    create_directory(f"{OUTPUT_DIR}/raw")
+    save_csv(sales_raw_df, f"{OUTPUT_DIR}/raw/sales.csv")
+    save_excel(sales_raw_df, f"{OUTPUT_DIR}/raw/sales.xlsx")
+
+    # summary
+    print(
+            "Sales saved successfully."
+        )
+    
+    print(
+                "Clean sales data saved successfully."
+            )
+        
+    print(
+                "Raw sales data saved successfully."
+            )
+
 
     return sales_df
 

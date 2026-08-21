@@ -29,14 +29,20 @@ The project focuses on generating:
  - Raw datasets containing controlled data quality issues
 # Dataset Architecture
 The dataset is divided into three main layers:
-   #### master data
+   ### master data
 Master data contains relatively stable business entities;  
 This include:  
-   categories  
-   suppliers  
-   stores  
+   > categories  
+   > suppliers  
+   > stores  
    customers  
    products  
    inventory  
+### Transaction data
+Transaction datasets represent retail activities:  
+Sales  
+Sales details  
+payment  
+returns  
 
 

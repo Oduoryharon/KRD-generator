@@ -7,8 +7,8 @@ The project generates interconnected master and transactional datasets represent
 
 The generated data can be used for:
 
- - **.** Data analytics
- - **.** SQL practice
+  **.** Data analytics
+  **.** SQL practice
  - **.** Data cleaning
  - **.** ETL pipelines
  - **.** Data warehousing

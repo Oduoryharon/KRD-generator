@@ -61,7 +61,7 @@ Examples include:
 - Inconsistent stock status values
 # Data Relationship 
 Categories
-    │
+ >   │
     └──── Products
               │
               ├──── Inventory

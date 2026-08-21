@@ -146,5 +146,31 @@ Run the project:
 
 python -m generator.main
 ```
+# Data Quality Simulation
+```
+The project generates both clean and raw versions of selected datasets.
 
+The raw datasets contain intentionally introduced data quality issues to simulate real-world data problems.
+
+Examples include:
+
+Clean:
+Nairobi
+
+
+Raw:
+NAIROBI
+Nairobi County
+Nairobi 
+ NRB
+
+This allows users to practice:
+
+Data cleaning
+Standardization
+Deduplication
+Missing value handling
+Data validation
+ETL processes
+```
 

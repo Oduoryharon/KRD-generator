@@ -150,7 +150,8 @@ python -m generator.main
 ```
 The project generates both clean and raw versions of selected datasets.
 
-The raw datasets contain intentionally introduced data quality issues to simulate real-world data problems.
+The raw datasets contain intentionally introduced data quality issues to simulate real-world data
+problems.
 
 Examples include:
 
@@ -176,11 +177,24 @@ ETL processes
 # Important Disclaimer
 ```
 This project generates synthetic data.
-The dataset does not represent actual transactions, customers, suppliers, employees, or confidential business information from any real organization.
+The dataset does not represent actual transactions, customers, suppliers, employees, or
+confidential business information from any real organization.
 
 Names of locations, companies, brands, and products may be inspired by publicly known entities or
 realistic business structures. However, all generated relationships, transactions, customer
 records, financial values, and business activities are synthetic and should not be interpreted as
 real business data.
 ```
+# Intended Use
 
+This dataset is intended for:
+
+ - Educational purposes
+ - Portfolio projects
+ - Data analytics practice
+ - SQL practice
+ - ETL and data engineering projects
+ - Business intelligence development
+ - Data cleaning exercises
+
+It should not be used to make real-world financial, commercial, or operational decisions.

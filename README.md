@@ -121,6 +121,12 @@ Local Export
 | Payments      | Payment records                      |
 | Returns       | Returned products                    |
 ```
-
+# Technology Used
+- Python  
+- Pandas  
+- Faker  
+- OpenPyXL 
+- CSV
+- Excel
 
 

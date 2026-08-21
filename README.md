@@ -30,13 +30,13 @@ The project focuses on generating:
 # Dataset Architecture
 The dataset is divided into three main layers:
 ## master data
-Master data contains relatively stable business entities;
-This include:
- categories  
- suppliers  
- stores  
- customers  
- products  
- inventory  
+Master data contains relatively stable business entities;  
+This include:  
+   categories  
+   suppliers  
+   stores  
+   customers  
+   products  
+   inventory  
 
 

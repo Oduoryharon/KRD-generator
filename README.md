@@ -128,5 +128,23 @@ Local Export
 - OpenPyXL 
 - CSV
 - Excel
+# Installation
+```
+Clone the repository:
+
+git clone YOUR_REPOSITORY_URL
+
+Move into the project directory:
+
+cd Kenyan-Retail-Dataset-Generator
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+Run the project:
+
+python -m generator.main
+```
 
 

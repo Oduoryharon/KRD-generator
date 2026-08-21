@@ -60,23 +60,25 @@ Examples include:
 - Invalid inventory quantities
 - Inconsistent stock status values
 # Data Relationship 
-Categories  
- &nbsp;&nbsp;&nbsp;&nbsp; │  
- &nbsp;&nbsp;&nbsp;&nbsp; └──── Products  
- &nbsp;&nbsp;&nbsp;&nbsp;           │  
- &nbsp;&nbsp;&nbsp;&nbsp;           ├──── Inventory  
- &nbsp;&nbsp;&nbsp;&nbsp;           │  
-  &nbsp;&nbsp;&nbsp;&nbsp;          └──── Sales Details  
-                       │  
-Customers ───── Sales ───── Payments  
-                   │  
-                   └──── Returns  
+'''
+Categories
+    │
+    └──── Products
+              │
+              ├──── Inventory
+              │
+              └──── Sales Details
+                       │
+Customers ───── Sales ───── Payments
+                   │
+                   └──── Returns
 
-Suppliers ───── Products  
+Suppliers ───── Products
 
-Stores ───── Inventory  
+Stores ───── Inventory
      │
-     └──── Sales  
+     └──── Sales
+'''     
 
 
 

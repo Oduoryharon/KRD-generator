@@ -178,6 +178,9 @@ ETL processes
 This project generates synthetic data.
 The dataset does not represent actual transactions, customers, suppliers, employees, or confidential business information from any real organization.
 
-Names of locations, companies, brands, and products may be inspired by publicly known entities or realistic business structures. However, all generated relationships, transactions, customer records, financial values, and business activities are synthetic and should not be interpreted as real business data.
+Names of locations, companies, brands, and products may be inspired by publicly known entities or
+realistic business structures. However, all generated relationships, transactions, customer
+records, financial values, and business activities are synthetic and should not be interpreted as
+real business data.
 ```
 

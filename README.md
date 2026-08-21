@@ -59,4 +59,25 @@ Examples include:
  - Location name variations
 - Invalid inventory quantities
 - Inconsistent stock status values
+# Data Relationship 
+Categories
+    │
+    └──── Products
+              │
+              ├──── Inventory
+              │
+              └──── Sales Details
+                       │
+Customers ───── Sales ───── Payments
+                   │
+                   └──── Returns
+
+Suppliers ───── Products
+
+Stores ───── Inventory
+     │
+     └──── Sales
+
+
+
 

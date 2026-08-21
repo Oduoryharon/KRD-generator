@@ -60,7 +60,7 @@ Examples include:
 - Invalid inventory quantities
 - Inconsistent stock status values
 # Data Relationship 
-'''
+```
 Categories
     │
     └──── Products
@@ -78,7 +78,7 @@ Suppliers ───── Products
 Stores ───── Inventory
      │
      └──── Sales
-'''     
+```     
 
 
 

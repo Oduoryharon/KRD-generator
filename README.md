@@ -45,4 +45,18 @@ Sales details
 payment  
 returns  
 
+# Raw Data
+Raw datasets contain controlled data quality issues designed for data cleaning and ETL practice.
+
+Examples include:
+
+ - Missing values
+ - Duplicate values
+ - Inconsistent text casing
+ - Extra spaces
+ - Phone number formatting differences
+ - Email formatting errors
+ - Location name variations
+- Invalid inventory quantities
+- Inconsistent stock status values
 

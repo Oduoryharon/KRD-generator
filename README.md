@@ -112,7 +112,15 @@ Local Export
 | Products   | Product catalog                              |
 | Inventory  | Product inventory across stores              |
 ```
-
+### Transaction Data
+```
+| Dataset       | Description                          |
+| ------------- | ------------------------------------ |
+| Sales         | Retail sales transactions            |
+| Sales Details | Individual products within each sale |
+| Payments      | Payment records                      |
+| Returns       | Returned products                    |
+```
 
 
 

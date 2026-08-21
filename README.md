@@ -27,5 +27,16 @@ The project focuses on generating:
  - Realistic business rules
  - Clean datasets
  - Raw datasets containing controlled data quality issues
+# Dataset Architecture
+The dataset is divided into three main layers:
+## master data
+Master data contains relatively stable business entities;
+This include:
+ categories  
+ suppliers  
+ stores  
+ customers  
+ products  
+ inventory  
 
 

@@ -9,10 +9,10 @@ The generated data can be used for:
 
  -  Data analytics
  -  SQL practice
- - **.** Data cleaning
- - **.** ETL pipelines
- - **.** Data warehousing
- - **.** Dashboard development
- - **.** Business intelligence
- - **.** Data quality testing
- - **.** Portfolio projects
+ -  Data cleaning
+ -  ETL pipelines
+ -  Data warehousing
+ -  Dashboard development
+ -  Business intelligence
+ -  Data quality testing
+ -  Portfolio projects

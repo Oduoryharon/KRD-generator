@@ -100,6 +100,18 @@ Raw Dataset
       ↓
 Local Export
 ```
+# Generated Datasets
+### Master Data
+```
+| Dataset    | Description                                  |
+| ---------- | -------------------------------------------- |
+| Categories | Product categories                           |
+| Suppliers  | Supplier and supplier branch information     |
+| Stores     | Retail store locations                       |
+| Customers  | Customer demographic and profile information |
+| Products   | Product catalog                              |
+| Inventory  | Product inventory across stores              |
+```
 
 
 

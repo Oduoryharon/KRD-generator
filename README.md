@@ -60,9 +60,9 @@ Examples include:
 - Invalid inventory quantities
 - Inconsistent stock status values
 # Data Relationship 
-Categories
- &nbsp;│  
- &nbsp;└──── Products  
+Categories  
+ &nbsp;&nbsp│  
+ &nbsp;&nbsp└──── Products  
               │
               ├──── Inventory
               │

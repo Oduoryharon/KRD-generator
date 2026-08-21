@@ -63,20 +63,20 @@ Examples include:
 Categories  
  &nbsp;&nbsp;&nbsp;&nbsp; │  
  &nbsp;&nbsp;&nbsp;&nbsp; └──── Products  
-              │
-              ├──── Inventory
-              │
-              └──── Sales Details
-                       │
-Customers ───── Sales ───── Payments
-                   │
-                   └──── Returns
+              │  
+              ├──── Inventory  
+              │  
+              └──── Sales Details  
+                       │  
+Customers ───── Sales ───── Payments  
+                   │  
+                   └──── Returns  
 
-Suppliers ───── Products
+Suppliers ───── Products  
 
-Stores ───── Inventory
+Stores ───── Inventory  
      │
-     └──── Sales
+     └──── Sales  
 
 
 

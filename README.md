@@ -78,7 +78,28 @@ Suppliers ───── Products
 Stores ───── Inventory
      │
      └──── Sales
-```     
+```
+# Data Generation Process
+The project follows the following workflow:  
+```
+Reference Data
+      ↓
+Master Data Generation
+      ↓
+Business Rules
+      ↓
+Transaction Generation
+      ↓
+Data Validation
+      ↓
+Clean Dataset
+      ↓
+Data Quality Injection
+      ↓
+Raw Dataset
+      ↓
+Local Export
+```
 
 
 

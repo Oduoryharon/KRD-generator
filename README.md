@@ -16,3 +16,16 @@ The generated data can be used for:
  -  Business intelligence
  -  Data quality testing
  -  Portfolio projects
+# Project Objectives
+The main objective of this project is to create a realistic synthetic retail dataset that can be used to practice end-to-end data workflows.
+
+The project focuses on generating:
+
+ - Structured master data
+ - Transactional retail data
+ - Referential relationships between datasets
+ - Realistic business rules
+ - Clean datasets
+ - Raw datasets containing controlled data quality issues
+
+

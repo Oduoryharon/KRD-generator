@@ -40,7 +40,7 @@ This include:
    inventory  
 ### Transaction data
 Transaction datasets represent retail activities:  
-Sales  
+> Sales  
 Sales details  
 payment  
 returns  
